@@ -19,7 +19,7 @@ gem 'libv8', '~> 6.3.0'
 # Use mini_racer
 gem 'mini_racer', '>= 0.2.0'
 # Use SCSS for stylesheets
-gem 'bootstrap-sass', '~> 3.3.7'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sass-rails'
 gem 'jquery-rails'
 # Use Uglifier as compressor for JavaScript assets
