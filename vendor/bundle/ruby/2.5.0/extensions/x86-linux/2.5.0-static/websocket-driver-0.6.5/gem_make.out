@@ -1,0 +1,15 @@
+current directory: /var/www/spc_repo_home/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+/home/skushner/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20190306-7606-j7eytv.rb extconf.rb
+creating Makefile
+
+current directory: /var/www/spc_repo_home/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /var/www/spc_repo_home/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /var/www/spc_repo_home/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20190306-7606-1octurp

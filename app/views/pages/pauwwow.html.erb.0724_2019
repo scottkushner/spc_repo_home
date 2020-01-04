@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rpbzojmUAipTjhdqpAuC9UC25vt79Uj15bARb4dZn+qhV0KkPpe7x5yIcWop6KVURCodA4hnpsSkmDvr8gdifA==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="resourcesync" href="http://172.17.8.211/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+
+<!-- Google Scholar metadata -->
+
+<title>Saint Peter&#39;s University
+Digital Repository</title>
+
+    <%= stylesheet_link_tag 'pauwwow', media: 'all', 'data-turbolinks-track' => true %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+</head>
+
+<body>
+   <body id="pauwwow-page">
+
+<!-- Google Analytics -->
+<!-- for extras, e.g., a favicon -->
+<div class="text-block">
+<h2>The Pauw Wow</h2>
+<p><h3>The Saint Peter's University Student Newspaper</p>
+</h3>
+   </div>
+<div class="container">
+   <div class="row fixed-row-bottom">
+    <div class="col-md-9" id="main-content">
+  <h2>The Pauw Wow</h2>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sevamus elementum semper nisi.</p>
+   </div> 
+  </div>
+<div class="col-md-3" id="sidebar">
+  <h2>Browse by date...</h2>
+  <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus.</p>
+    </div>
+   </div>
+  </div>
+</div>
+
+<h4 style="font-style: italic;">The Pauw Wow...The Student Newspaper of Saint Peter&#39;s University</h4>
+
+<h5>browse by date...</h5>
+
+<table class="table table-bordered" style="border-spacing: 1px; border-collapse: separate; border: 1px solid rgb(221, 221, 221);">
+<tbody>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.212" style="box-sizing: border-box; background-color: rgb(255, 255, 255); color: rgb(51, 122, 183); text-decoration-line: none; font-family: Arial, Helvetica, Verdana; font-size: 12px;" target="_self">1932</a></td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1957</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1982</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">
+<p style="box-sizing: border-box; margin: 0px 0px 10px; color: rgb(51, 51, 51); font-family: Arial, Helvetica, Verdana; font-size: 12px;"><a href="http://172.17.8.212" style="box-sizing: border-box; color: rgb(51, 122, 183); text-decoration-line: none;" target="_self">1933</a></p>
+</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1958</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.211/catalog?f%5Bkeyword_sim%5D%5B%5D=Pauw+Wow+1934&amp;locale=en" style="box-sizing: border-box; background-color: rgb(255, 255, 255); color: rgb(51, 122, 183); text-decoration-line: none; font-family: Arial, Helvetica, Verdana; font-size: 12px;" target="_self">1934</a></td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1959</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.211/catalog?f%5Bkeyword_sim%5D%5B%5D=Pauw+Wow+1935&amp;locale=en" style="box-sizing: border-box; background-color: rgb(255, 255, 255); color: rgb(51, 122, 183); text-decoration-line: none; font-family: Arial, Helvetica, Verdana; font-size: 12px;" target="_self">1935</a></td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1960</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.212" style="box-sizing: border-box; background-color: rgb(255, 255, 255); color: rgb(51, 122, 183); text-decoration-line: none; font-family: Arial, Helvetica, Verdana; font-size: 12px;" target="_self">193</a>6</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1961</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.212" style="background-color: rgb(255, 255, 255);" target="_self">193</a>7</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1962</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.212" style="background-color: rgb(255, 255, 255);" target="_self">193</a>8</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1963</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.212" style="background-color: rgb(255, 255, 255);" target="_self">193</a>9</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1964</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.212" style="background-color: rgb(255, 255, 255);" target="_self">19</a>40</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1965</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.212" style="background-color: rgb(255, 255, 255);" target="_self">19</a>41</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.211/catalog?f%5Bkeyword_sim%5D%5B%5D=Pauw+Wow+1966&amp;locale=en">1966</a></td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.212" style="background-color: rgb(255, 255, 255);" target="_self">19</a>42</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.211/catalog?f%5Bkeyword_sim%5D%5B%5D=Pauw+Wow+1967&amp;locale=en">1967</a></td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.212" style="background-color: rgb(255, 255, 255);" target="_self">19</a>43</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1968</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.212" style="background-color: rgb(255, 255, 255);" target="_self">19</a>44</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1969</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.212" style="background-color: rgb(255, 255, 255);" target="_self">19</a>45</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.211/catalog?f%5Bkeyword_sim%5D%5B%5D=Pauw+Wow+1970&amp;locale=en">1970</a></td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.212" style="background-color: rgb(255, 255, 255);" target="_self">19</a>46</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1971</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.212" style="background-color: rgb(255, 255, 255);" target="_self">19</a>47</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.211/catalog?f%5Bkeyword_sim%5D%5B%5D=Pauw+Wow+1972&amp;locale=en">1972</a></td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.212" style="background-color: rgb(255, 255, 255);" target="_self">19</a>48</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);"><a href="http://172.17.8.211/catalog?locale=en&amp;q=+March+21+1973&amp;search_field=date_created_tesim">1973</a></td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1949</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1974</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1950</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1975</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1951</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1976</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1952</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1977</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1953</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1978</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1954</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1979</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1955</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1980</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+<tr>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1956</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">1981</td>
+<td class="ck_border" style="border: 1px solid rgb(221, 221, 221);">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+
+<h5>.</h5>
+   </div>
+   </div>
+  </div>
+ </div>
+<script>$('body').addClass('pauwwow-page');</script>
+</body>
+</html>

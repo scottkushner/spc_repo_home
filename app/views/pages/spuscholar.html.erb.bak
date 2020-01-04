@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rpbzojmUAipTjhdqpAuC9UC25vt79Uj15bARb4dZn+qhV0KkPpe7x5yIcWop6KVURCodA4hnpsSkmDvr8gdifA==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="resourcesync" href="http://172.17.8.211/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+
+<!-- Google Scholar metadata -->
+
+<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+
+</head>
+<body id="page-scholar">
+    <nav id="masthead" class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a id="logo" class="navbar-brand" href="/?locale=en" data-no-turbolink="true">
+  <span class="glyphicon glyphicon-globe"></span>
+  <span class="institution_name">Saint Peter&#39;s University Digital Repository</span>
+</a>
+
+    </div>
+
+      <div class=".image-masthead">
+    <div class="background-container" background-image: image-url('/assets/PeterthePeacock.jpg')>
+    <span class="background-container-gradient"></span>
+
+    <div class="container site-title-container">
+      <div class="site-title h1" style="text-align: center;">
+
+      </div>
+    </div>
+
+<span class="background-container-gradient"></span>
+
+    <div class="container site-title-container">
+      <div class="site-title h1" style="text-align: center;">
+
+      </div>
+    </div>
+
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class="container-fluid">
+    <div class="row">
+      <ul class="nav navbar-nav col-sm-5 col-md-6">
+        <li >
+          <a href="/?locale=en">Home</a></li>
+        <li >
+          <a href="/about?locale=en">About</a></li>
+        <li >
+          <a href="/help?locale=en">Help</a></li>
+        <li >
+          <a href="/contact?locale=en">Contact</a></li>
+      </ul><!-- /.nav -->
+      <div class="searchbar-right navbar-right col-sm-7 col-md-6">
+        <form id="search-form-header" role="search" action="/catalog?locale=en" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+
+  <input type="hidden" name="search_field" id="search_field" value="all_fields" />
+  <div class="input-group">
+
+    <label class="sr-only" for="search-field-header">Search Saint Peter&#39;s University Digital Repository</label>
+    <input type="text" name="q" id="search-field-header" class="q form-control" placeholder="Enter search terms" />
+
+    <div class="input-group-btn">
+      <button type="submit" class="btn btn-primary" id="search-submit-header">
+        <span class="glyphicon glyphicon-search"></span> Go
+      </button>
+
+      </ul>
+    </div><!-- /.input-group-btn -->
+
+  </div><!-- /.input-group -->
+</form>
+      </div>
+    </div>
+  </div>
+</nav><!-- /.navbar -->
+
+  </div>
+
+
+A
+A
+A
+A
+A
+A
+
+
+
+<title>Saint Peter&#39;s University
+Digital Repository</title>
+
+
+</body>
+</html>

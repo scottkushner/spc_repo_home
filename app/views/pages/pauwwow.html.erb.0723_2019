@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rpbzojmUAipTjhdqpAuC9UC25vt79Uj15bARb4dZn+qhV0KkPpe7x5yIcWop6KVURCodA4hnpsSkmDvr8gdifA==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="resourcesync" href="http://172.17.8.211/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+
+<!-- Google Scholar metadata -->
+
+<title>Saint Peter&#39;s University
+Digital Repository</title>
+
+    <%= stylesheet_link_tag 'pauwwow', media: 'all', 'data-turbolinks-track' => true %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+</head>
+
+<body>
+   <body id="pauwwow-page">
+
+<!-- Google Analytics -->
+<!-- for extras, e.g., a favicon -->
+    <div class="jumbotron">
+ <div class="container">  
+   <div class="row">
+    <div class="col-md-12">
+<div class="text-block">
+<h2>The Pauw Wow</h2>
+<p><h3>The Saint Peter's University Student Newspaper</p>
+</h3>
+   </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="container">
+  <div class="col-md-4" id="main-content">
+  <h2>What Trusthub can do for you</h2>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+<div class="row fixed-row-bottom">  
+ <div class="col-md-4" id="sidebar">
+  <h2>Our Team</h2>
+  <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus.</p>
+  </div>
+ </div>
+</div>
+</div>
+<script>$('body').addClass('pauwwow-page');</script>
+</body>
+</html>

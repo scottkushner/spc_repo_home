@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rpbzojmUAipTjhdqpAuC9UC25vt79Uj15bARb4dZn+qhV0KkPpe7x5yIcWop6KVURCodA4hnpsSkmDvr8gdifA==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="resourcesync" href="http://172.17.8.211/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+
+<!-- Google Scholar metadata -->
+
+<title>Saint Peter&#39;s University
+Digital Repository</title>
+
+    <%= stylesheet_link_tag 'scholar', media: 'all', 'data-turbolinks-track' => true %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+ Google Analytics -->
+
+<!-- for extras, e.g., a favicon -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><h2>Saint Peter's University Documents Archive</h2></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+ </head>
+<body>
+<div class="image-masthead">
+    <div class="background-container" background-image: image-url('archives_door6.jpg')>
+</div>
+    <span class="background-container-gradient"></span>
+    <div class="container site-title-container">
+      <div class="site-title h1" style="text-align: center;">
+      </div>
+    </div>
+
+<div class="container">
+<div class="row">
+<div class="text-center">
+  <div id="button-container" class="btn-toolbar">
+      
+ <a class="btn btn-primary btn-xlarge" href="http://172.17.8.212/scholar#"><i><h2>Historical Document Archive</h2></i>
+         <p><h4><i>The Pauw Wow, The Pavan, University Publications,</p>
+<p>& the Hon. Frank J.Guarini Congressional Papers</p>
+         </h4></p></a>
+ 
+       <a class="btn btn-primary btn-xlarge" href="http://172.17.8.212:8080"><h2>Historical Image Archive</h2><p><h4><i>Historical Photographs, Medieval Manuscripts</h4></p><p><h4>& the Jesuit Diaries</h4></p></a>
+
+     <a class="btn btn-primary btn-xlarge" href="http://172.17.8.211/?locale=en#tab-col2-second"><h2>Peacock Scholarsphere</h2>
+         <p><h4>Faculty Publications, Dissertations</p>
+          <p>& Student Honor's Thesis</h4></p></a>
+     </div>
+  </div>
+</div>
+
+<div id="main-container" class="container">
+  <div class="row">
+   <div id="content" class="col-xs-9">
+   </div>
+  </div>
+ </div>
+</body>
+<script>$('body').addClass('scholar-page');</script>
+</html>

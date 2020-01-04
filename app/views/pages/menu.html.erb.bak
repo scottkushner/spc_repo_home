@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rpbzojmUAipTjhdqpAuC9UC25vt79Uj15bARb4dZn+qhV0KkPpe7x5yIcWop6KVURCodA4hnpsSkmDvr8gdifA==" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="resourcesync" href="http://172.17.8.211/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+
+<!-- Google Scholar metadata -->
+
+
+<!-- Mobile viewport optimization h5bp.com/ad -->
+<meta name="HandheldFriendly" content="True">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title"
+          content="Saint Peter's Digital Collections menu">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+<meta http-equiv="cleartype" content="on">
+<title>Saint Peter's University's Digital Repository</title>
+
+
+<%= stylesheet_link_tag 'menu', media: 'all', 'data-turbolinks-track' => true %>
+<!-- application js -->
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+</head>
+
+
+<body>
+
+
+<div class="modal fade" id="dri_advanced_search_modal_id">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+          &times;
+        </button>
+        <h4 class="modal-title">
+          <span class="translation_missing" title="translation missing: en.dri.views.objects.buttons.advanced_search">Advanced Search</span>
+        </h4>
+      </div>
+
+      <div class="modal-body">
+        <form class="advanced form-horizontal" action="/catalog" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+          <input type="hidden" name="mode" value="collections" />
+          <div class="input-criteria">
+  <div class="query-criteria">
+    <h3 class="query-criteria-heading">
+      Find items that match <select name="op" id="op" class="input-small"><option value="AND">all</option>
+<option value="OR">any</option></select> of
+    </h3>
+    <div id="advanced_search">
+        <div class="form-group advanced-search-field">
+    <label class="col-sm-3 control-label" for="all_fields">All Fields</label>
+    <div class="col-sm-9">
+      <input type="text" name="all_fields" id="all_fields" class="form-control" />
+    </div>
+  </div>
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 control-label" for="title">Titles</label>
+    <div class="col-sm-9">
+      <input type="text" name="title" id="title" class="form-control" />
+    </div>
+  </div>
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 control-label" for="subject">Subjects</label>
+    <div class="col-sm-9">
+      <input type="text" name="subject" id="subject" class="form-control" />
+    </div>
+  </div>
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 control-label" for="description">Descriptions</label>
+    <div class="col-sm-9">
+      <input type="text" name="description" id="description" class="form-control" />
+    </div>
+  </div>
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 control-label" for="creator">Creators</label>
+    <div class="col-sm-9">
+      <input type="text" name="creator" id="creator" class="form-control" />
+    </div>
+  </div>
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 control-label" for="contributor">Contributors</label>
+    <div class="col-sm-9">
+      <input type="text" name="contributor" id="contributor" class="form-control" />
+    </div>
+  </div>
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 control-label" for="publisher">Publishers</label>
+    <div class="col-sm-9">
+      <input type="text" name="publisher" id="publisher" class="form-control" />
+    </div>
+  </div>
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 control-label" for="person">Names</label>
+    <div class="col-sm-9">
+      <input type="text" name="person" id="person" class="form-control" />
+    </div>
+  </div>
+  <div class="form-group advanced-search-field">
+    <label class="col-sm-3 control-label" for="place">Places</label>
+    <div class="col-sm-9">
+      <input type="text" name="place" id="place" class="form-control" />
+    </div>
+  </div>
+
+    </div>
+  </div>
+</div>
+
+          <hr>
+          <div class="advanced-submit-buttons clearfix">
+  <div class='submit-buttons pull-right'>
+    <input type="hidden" name="search_field" id="search_field" value="advanced" />
+
+    <a onclick="clearAdvancedForm(&#39;#dri_advanced_search_modal_id&#39;)" class="btn btn-default advanced-search-start-over dri_help_popover_slow" data-content="Clear the current search settings" data-original-title="Start Over" data-placement="left" data-trigger="hover" href="#">Start Over</a>
+
+    <input type="submit" name="commit" value="Search" class="btn btn-primary advanced-search-submit dri_help_popover_slow" id="advanced-search-submit" data-content="Start a search with the current settings" data-original-title="Search" data-placement="left" data-trigger="hover" data-disable-with="Search" />
+  </div>
+</div>
+
+</form>      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Header to be displayed to users -->
+<header id="dri_header_container_id" class="dri_header_container hidden-xs">
+<a href="http://www.dri.ie/">
+    <div id="dri_ident_id" class="dri_ident"></div>
+</a>
+
+<div id="dri_social_media_container_id"
+class="dri_social_media_container">
+
+<nav id="dri_social_media_nav_id" class="dri_social_media_nav" >
+<ul id="dri_social_media_links_id" class="dri_social_media_links" data-content="Use these buttons to vist our Twitter, Facebook, Vimeo and Slideshare pages"  data-original-title="DRI on the Internet" data-trigger="hover" data-placement="right">
+<a id="follow_twitter" target="_blank" href="https://twitter.com/dri_ireland">
+<li>
+<i class="fa fa-twitter fa-lg"></i>
+</li>
+</a> <a id="follow_facebook" target="_blank" href="https://www.facebook.com/digitalrepositoryireland">
+<li>
+<i class="fa fa-facebook-official fa-lg"></i>
+</li>
+</a> <a id="follow_vimeo" target="_blank" href="https://vimeo.com/digitalrepositoryireland">
+<li>
+<i class="fa fa-vimeo-square fa-lg"></i>
+</li>
+</a> <a id="http://www.slideshare.net/dri_ireland" target="_blank" href="http://www.slideshare.net/dri_ireland">
+<li>
+<i class="fa fa-slideshare"></i>
+</li>
+</a> </ul>
+</nav>
+</div>
+<!-- search term input block (including any required hidden fields) to allow user to input a search term(s)  -->
+<div class="dri_authentication_search_container">
+    <nav id="dri_account_nav_id" class="dri_account_nav">
+
+    <div class="account_container">
+   
+    <ul class="dropdown dri_language_links">
+      <a data-toggle="dropdown" href="#">
+      English <i class="fa fa-sml fa-caret-down"></i>
+</a>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+        <a href="/session/ga?path=%2Fcatalog%3Fmode%3Dcollections%26search_field%3Dall_fields">Gaeilge</a>
+      </ul>
+    </ul>
+
+
+    <ul id="dri_account_links_id" class="dri_account_links">
+      <a id="view_account" href="/user_groups/profile">
+        <li class="no_border">
+          <i class="fa fa-user"></i>
+        </li>
+</a>    </ul>
+    </div>
+  </nav>
+  <!-- close dri_account_nav -->
+
+    <form id="searchform" class="dri_search_term_input_form" action="/catalog" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <select name="search_field" id="search_field" title="Targeted search options" class="dri_select"><option selected="selected" value="all_fields">All Fields</option>
+<option value="title">Titles</option>
+<option value="subject">Subjects</option>
+<option value="person">Names</option>
+<option value="place">Places</option></select>
+
+
+    <input type="hidden" name="mode" value="collections" />
+    <!-- ID for the search box of 'q_text', to distinguish from date range search when rendering filter constraints in the UI -->
+    <input type="text" name="q" id="q" placeholder="Search..." class="dri_search_term_text_input dri_help_popover_slow" data-content="Type a search term and press Enter. Use AND and OR to narrow or broaden your search" data-original-title="Search the repository" data-trigger="hover" data-placement="left" />
+    <button type="submit" class="dri_search_term_text_submit_button dri_no_display" id="search">
+      Ok
+    </button>
+  </form><!-- end form -->
+<!-- close dri_search_term_input_form -->
+
+  <a data-target="#dri_advanced_search_modal_id" data-toggle="modal" id="advanced_search_button" href="">+ More options</a>
+
+</div>
+
+</header><!-- close dri_header_container -->
+
+<nav id="dri_main_nav_id" class="dri_main_nav_new navbar navbar-default navbar-fixed-top" style="z-index: 1000;">
+<div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only"><span class="translation_missing" title="translation missing: en.dri.nav.main_nav.toggle_navigation">Toggle Navigation</span></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+
+</button>
+<span class="dri_navbar_search hidden-sm hidden-md hidden-lg">   <form id="mobile_searchform" class="dri_search_term_input_form" action="/catalog" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <select name="search_field" id="search_field" title="Targeted search options" class="custom-select search-field"><option selected="selected" value="all_fields">All Fields</option>
+<option value="title">Titles</option>
+<option value="subject">Subjects</option>
+<option value="description">Descriptions</option>
+<option value="creator">Creators</option>
+<option value="contributor">Contributors</option>
+<option value="publisher">Publishers</option>
+<option value="person">Names</option>
+<option value="place">Places</option></select>
+
+    <input type="hidden" name="mode" value="collections" />
+    <input type="text" name="q" id="mobile_q" placeholder="Search..." class="dri_search_term_text_input dri_no_clear dri_help_popover_slow" data-content="Type a search term and press Enter. Use AND and OR to narrow or broaden your search" data-original-title="Search the repository" data-trigger="hover" data-placement="bottom" />
+
+    <a data-target="#dri_advanced_search_modal_id" data-toggle="modal" id="advanced_search_button_mobile" href="">+ More options</a>
+
+    <button type="submit" class="dri_search_term_text_submit_button dri_no_display" id="search">
+      Ok
+    </button>
+  </form><!-- end form -->
+<!-- close dri_search_term_input_form -->
+</span>
+<a href="/">
+<div class="dri_ident_tiny hidden-sm hidden-md hidden-lg"></div>
+</a>
+</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav dri_uppercase">
+     <li>
+<a id="dri_home_id" href="http://www.dri.ie/">Home</a>
+</li>
+
+    <li class="active">
+
+<a id="browse" href="/catalog?mode=collections&amp;search_field=all_fields">Discover</a>
+</li>
+
+    <li>
+<a id="institutions" href="/organisations">Organisations</a>
+</li>
+
+<li>
+  <li class="dropdown dri_dropdown">
+  <a href="http://www.dri.ie/membership" class="dropdown-toggle" role="button" aria-expanded="false">Membership <span class="caret"></span></a>
+  <ul class="dropdown-menu" role="menu">
+
+    <li role="presentation">
+      <a href="http://www.dri.ie/why-join-dri">Why Join DRI?</a>
+    </li>
+
+    <li role="presentation">
+      <a href="http://www.dri.ie/member-benefits">Member Benefits</a>
+    </li>
+
+    <li role="presentation">
+      <a href="http://www.dri.ie/membership-fees">Membership Fees</a>
+    </li>
+
+    <li role="presentation">
+      <a href="http://www.dri.ie/our-members">Our Members</a>
+    </li>
+
+  </ul>
+</li>
+</li>
+
+<li>
+  <li class="dropdown dri_dropdown">
+  <a href="http://www.dri.ie/about-dri" class="dropdown-toggle" role="button" aria-expanded="false">About <span class="caret"></span></a>
+  <ul class="dropdown-menu" role="menu">
+
+    <li role="presentation">
+      <a href="http://www.dri.ie/about-dri">About DRI</a>
+    </li>
+
+
+    <li role="presentation">
+      <a href="http://www.dri.ie/about/guide-to-deposit">Guide to Deposit</a>
+    </li>
+
+    <li role="presentation">
+      <a href="http://www.dri.ie/publications">Publications</a>
+    </li>
+
+    <li role="presentation">
+      <a href="http://www.dri.ie/projects">Projects</a>
+    </li>
+
+    <li role="presentation">
+      <a href="http://www.dri.ie/blog">Blog</a>
+    </li>
+
+    <li role="presentation">
+      <a href="http://www.dri.ie/events">Events</a>
+    </li>
+
+    <li role="presentation">
+      <a href="http://www.dri.ie/resources-0">Resources</a>
+    </li>
+
+    <li role="presentation">
+      <a href="http://www.dri.ie/research-data-and-dri">Research Data and DRI</a>
+    </li>
+
+  </ul>
+</li>
+
+</li>
+
+<li>
+  <li class="dropdown dri_dropdown">
+  <a href="http://www.dri.ie/dri-team" class="dropdown-toggle" role="button" aria-expanded="false">Team <span class="caret"></span></a>
+  <ul class="dropdown-menu" role="menu">
+
+    <li role="presentation">
+      <a href="http://www.dri.ie/dri-team">People</a>
+    </li>
+
+    <li role="presentation">
+      <a href="http://www.dri.ie/vacancies">Vacancies</a>
+    </li>
+
+  </ul>
+</li>
+</li>
+
+    <li>
+<a id="workspace" href="/workspace">Workspace</a>
+</li>
+
+
+ 
+<li class="dropdown dri_dropdown hidden-sm hidden-md hidden-lg">
+
+<a href="#" id="dri_manage_id" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle">Language <span class="caret"></span></a>
+
+<ul class="dropdown-menu" role="menu">
+<li class="active">
+<a>English</a>
+</li>
+<li>
+<a id="ga" href="/session/ga?path=%2Fcatalog%3Fmode%3Dcollections%26search_field%3Dall_fields">Gaeilge</a>
+</li>
+</ul>
+</li>
+
+
+       <li class="hidden-sm hidden-md hidden-lg">
+         <a href="/user_groups/users/new">Sign Up</a>
+       </li>
+     <li class="hidden-sm hidden-md hidden-lg">
+           <a href="/user_groups/users/sign_in">Login</a>
+     </li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+
+  <!-- start dri_crumbtrail_nav_container -->
+
+<!-- close dri_crumbtrail_nav_container -->
+
+  <!-- container for search, sort and pagination etc. navigations and search text input -->
+<div id="dri_search_features_nav_container_id"
+class="dri_search_features_nav_container">
+
+      <!-- navigation to allow the user to determine how the search result are sorted e.g. by relevance, A to Z, Z to A -->
+    <nav id="dri_sort_nav_id" class="dri_sort_nav" >
+      <select id="dri_sort_options_id" class="dri_select" name="sort" data-content="Select from this list to sort your results by Newest, Title, Relevance or Sequence. Relevance is the system&#39;s best guess as which Collections or Objects are most relevant to your search"  data-original-title="Search Sort Options" data-trigger="hover" data-placement="right">
+                <option value="/catalog?mode=collections&amp;search_field=all_fields&amp;sort=system_create_dtsi+desc" selected>Newest</option>
+                <option value="/catalog?mode=collections&amp;search_field=all_fields&amp;sort=score+desc%2C+system_create_dtsi+desc%2C+title_sorted_ssi+asc">Relevance</option>
+                <option value="/catalog?mode=collections&amp;search_field=all_fields&amp;sort=title_sorted_ssi+asc%2C+system_create_dtsi+desc">Title</option>
+                <option value="/catalog?mode=collections&amp;search_field=all_fields&amp;sort=id_asset_ssi+asc%2C+system_create_dtsi+desc">Order/sequence</option>
+      </select>
+    </nav>
+
+
+   <!-- navigation to allow the user to determine how the search result is displayed e.g. number of items output  -->
+<nav id="dri_pager_nav_id" class="dri_sort_nav">
+
+<select id="dri_page_options_id" class="dri_select" name="per_page" data-content="Select from this list to choose the number of items shown on each page"  data-original-title="Items per Page" data-trigger="hover" data-placement="right">
+
+
+ <option value="/catalog?mode=collections&amp;per_page=12&amp;search_field=all_fields" selected>
+ 12 Results
+ </option>
+
+
+ <option value="/catalog?mode=collections&amp;per_page=24&amp;search_field=all_fields">
+ 24 Results
+ </option>
+
+
+ <option value="/catalog?mode=collections&amp;per_page=36&amp;search_field=all_fields">
+ 36 Results
+ </option>
+
+
+ <option value="/catalog?mode=collections&amp;per_page=48&amp;search_field=all_fields">
+ 48 Results
+ </option>
+
+
+ <option value="/catalog?mode=collections&amp;per_page=72&amp;search_field=all_fields">
+ 72 Results
+ </option>
+
+
+ <option value="/catalog?mode=collections&amp;per_page=96&amp;search_field=all_fields">
+ 96 Results
+ </option>
+</select>
+</nav>
+
+
+<nav id="dri_display_grid_table_id" class="dri_sort_nav">
+
+<div class="dri_change_sort_view" id="dri_change_sort_view_id" data-content="Use these buttons to select between a Grid, Tabular, Timeline or Map layout for your search result"  data-original-title="Search Result Layout" data-trigger="hover" data-placement="top">
+
+ <i class="fa fa-th fa-lg dri_icon_border"></i>
+ <a id="table_view" href="/catalog?mode=collections&amp;search_field=all_fields&amp;view=list"><i class="fa fa-list fa-lg dri_icon_border"></i></a>
+   <a id="timeline_view" href="/catalog?mode=collections&amp;search_field=all_fields&amp;tl_field=sdate&amp;view=timeline"><i class="fa fa-clock-o fa-lg dri_icon_border"></i></a>
+   <a id="maps_view" href="/catalog?mode=collections&amp;search_field=all_fields&amp;view=maps"><i class="fa fa-map-marker fa-lg dri_icon_border"></i></a>
+
+</div>
+</nav>
+
+
+ 
+
+
+
+
+
+
+</div>
+<!-- close dri_search_features_nav_container -->
+
+
+<div id="ajax-modal" class="modal fade" tabindex="-1">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+Loading...
+</div>
+</div>
+</div>
+
+ 
+<!-- system messages container -->
+
+<div id="dri_messages_container_id" class="dri_messages_container dri_clearfix">
+</div>
+
+<!-- close dri_messages_container -->
+
+<!-- This condition identifies the browse section of the application and every search result and/or facet refinement -->
+ <div class="dri_facet_restrictions_container">
+<ul id="dri_browse_sort_tabs" class="dri_browse_sort_tabs" >
+
+<li id="dri_browse_sort_tabs_collections_id"
+  data-content="Use this tab to search for Collections"
+  data-original-title="Collections Search"
+  data-trigger="hover"
+  data-placement="auto right">
+    <a id="collections" class="dri_help_popover_slow selected" href="/catalog?mode=collections&amp;search_field=all_fields&amp;show_subs=false">Collections</a>
+</li>
+
+   <li id="dri_browse_sort_tabs_sub_collections_id"
+     data-content="Use this tab to toggle Sub-Collections in your search"
+     data-original-title="Sub-Collections Search"
+     data-trigger="hover"
+     data-placement="auto right">
+ <a id="sub_collections" class="dri_help_popover_slow" href="/catalog?mode=collections&amp;search_field=all_fields&amp;show_subs=true">Sub-Collections</a>
+   </li>
+
+<li id="dri_browse_sort_tabs_objects_id"
+ data-content="Use this tab to search for Objects"
+ data-original-title="Objects Search"
+ data-trigger="hover"
+ data-placement="auto right">
+ <a id="objects" class="dri_help_popover_slow" href="/catalog?mode=objects&amp;search_field=all_fields&amp;show_subs=false">Objects</a>
+</li>
+
+           
+<!-- navigation to allow the user to page through the search results  -->
+<nav id="dri_pagination_nav_id" class="dri_pagination_nav">
+<ul id="dri_pagination_nav_links_id" class="dri_pagination_nav_links" data-content="Use these links to move through your search results. You can change the number of pages selecting more or fewer items per page"  data-original-title="Result Pagination" data-trigger="hover" data-placement="left">
+
+   
+       <li class="selected">
+ <a href="/catalog?mode=collections&amp;search_field=all_fields&amp;view=grid">1</a>
+</li>
+
+
+       <li class="">
+ <a rel="next" href="/catalog?mode=collections&amp;page=2&amp;search_field=all_fields&amp;view=grid">2</a>
+</li>
+
+
+       <!-- <li class="disabled">
+  <a href="">&hellip;</a>
+</li>
+
+ -->
+       <li class="">
+ <a href="/catalog?mode=collections&amp;page=6&amp;search_field=all_fields&amp;view=grid">6</a>
+</li>
+
+
+   <li class="last">
+  <a rel="next" href="/catalog?mode=collections&amp;page=2&amp;search_field=all_fields&amp;view=grid">&nbsp;</a>
+</li>
+
+
+</ul>
+</nav>
+
+
+<!-- object to object pagination -->
+<!--
+-->
+</ul>
+</div>
+
+<!-- close dri_facet_restrictions_container -->
+
+
+<div class="dri_main_content_container">
+
+<!--overides view params if missing-->
+
+
+
+
+
+
+<div id="dri_second_navigation_container_id"
+     class="dri_second_navigation_container">
+  <!-- facet block -->
+
+
+  <div class="dri_facet_filters_block" id="sidebar">
+    <div id="facets" class="facets sidenav dri_facet_filters" data-content="Use Facets to narrow your search using specific metadata fields"
+data-original-title="Facet Filters" data-trigger="hover" data-placement="top">
+<div class="dri_head_title">
+<a data-toggle="collapse" href="#facet-panel-collapse" aria-expanded="false" aria-controls="Collapse Facets"> Refine your search
+  <span class="caret"></span> <span class="dri_search_num" id="browse_results_count">65</span>
+</a>
+</div>
+
+<div id="facet-panel-collapse" class="panel-group facet-non-md collapse in" aria-expanded="false">
+<div class="panel panel-default facet_limit blacklight-cdate_year_iim ">
+  <div class="collapsed collapse-toggle panel-heading" data-toggle="collapse" data-target="#facet-cdate_year_iim">
+    <h5 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Creation Date</a>
+    </h5>
+  </div>
+  <div id="facet-cdate_year_iim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+      <ul class="facet-values list-unstyled">
+  <li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=2015&amp;mode=collections&amp;search_field=all_fields">2015 (11)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=2014&amp;mode=collections&amp;search_field=all_fields">2014 (5)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=1999&amp;mode=collections&amp;search_field=all_fields">1999 (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=2013&amp;mode=collections&amp;search_field=all_fields">2013 (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=2006&amp;mode=collections&amp;search_field=all_fields">2006 (3)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=2008&amp;mode=collections&amp;search_field=all_fields">2008 (3)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=2016&amp;mode=collections&amp;search_field=all_fields">2016 (3)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=1899&amp;mode=collections&amp;search_field=all_fields">1899 (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=1963&amp;mode=collections&amp;search_field=all_fields">1963 (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=1997&amp;mode=collections&amp;search_field=all_fields">1997 (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=2004&amp;mode=collections&amp;search_field=all_fields">2004 (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=2005&amp;mode=collections&amp;search_field=all_fields">2005 (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=2010&amp;mode=collections&amp;search_field=all_fields">2010 (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=2017&amp;mode=collections&amp;search_field=all_fields">2017 (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=2019&amp;mode=collections&amp;search_field=all_fields">2019 (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=180&amp;mode=collections&amp;search_field=all_fields">180 (1)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=700&amp;mode=collections&amp;search_field=all_fields">700 (1)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=1641&amp;mode=collections&amp;search_field=all_fields">1641 (1)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=1750&amp;mode=collections&amp;search_field=all_fields">1750 (1)</a></li><li><a class="facet_select" href="/catalog?f%5Bcdate_year_iim%5D%5B%5D=1795&amp;mode=collections&amp;search_field=all_fields">1795 (1)</a></li>
+
+    <li class="more_facets_link"><a class="more_facets_link" href="/catalog/facet/cdate_year_iim?mode=collections&amp;search_field=all_fields">more »</a></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+<div class="panel panel-default facet_limit blacklight-pdate_year_iim ">
+  <div class="collapsed collapse-toggle panel-heading" data-toggle="collapse" data-target="#facet-pdate_year_iim">
+    <h5 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Published Date</a>
+    </h5>
+  </div>
+  <div id="facet-pdate_year_iim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+      <ul class="facet-values list-unstyled">
+  <li><a class="facet_select" href="/catalog?f%5Bpdate_year_iim%5D%5B%5D=2015&amp;mode=collections&amp;search_field=all_fields">2015 (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bpdate_year_iim%5D%5B%5D=2019&amp;mode=collections&amp;search_field=all_fields">2019 (3)</a></li><li><a class="facet_select" href="/catalog?f%5Bpdate_year_iim%5D%5B%5D=2016&amp;mode=collections&amp;search_field=all_fields">2016 (1)</a></li><li><a class="facet_select" href="/catalog?f%5Bpdate_year_iim%5D%5B%5D=2017&amp;mode=collections&amp;search_field=all_fields">2017 (1)</a></li>
+
+</ul>
+
+    </div>
+  </div>
+</div>
+<div class="panel panel-default facet_limit blacklight-licence_sim ">
+  <div class="collapsed collapse-toggle panel-heading" data-toggle="collapse" data-target="#facet-licence_sim">
+    <h5 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Licence</a>
+    </h5>
+  </div>
+  <div id="facet-licence_sim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+      <ul class="facet-values list-unstyled">
+  <li><a class="facet_select" href="/catalog?f%5Blicence_sim%5D%5B%5D=all+rights+reserved&amp;mode=collections&amp;search_field=all_fields">all rights reserved (45)</a></li><li><a class="facet_select" href="/catalog?f%5Blicence_sim%5D%5B%5D=cc-by-nc-nd&amp;mode=collections&amp;search_field=all_fields">cc-by-nc-nd (12)</a></li><li><a class="facet_select" href="/catalog?f%5Blicence_sim%5D%5B%5D=cc-by&amp;mode=collections&amp;search_field=all_fields">cc-by (4)</a></li><li><a class="facet_select" href="/catalog?f%5Blicence_sim%5D%5B%5D=cc-by-sa&amp;mode=collections&amp;search_field=all_fields">cc-by-sa (2)</a></li><li><a class="facet_select" href="/catalog?f%5Blicence_sim%5D%5B%5D=cc-by-nc&amp;mode=collections&amp;search_field=all_fields">cc-by-nc (1)</a></li><li><a class="facet_select" href="/catalog?f%5Blicence_sim%5D%5B%5D=cc-by-nc-sa&amp;mode=collections&amp;search_field=all_fields">cc-by-nc-sa (1)</a></li>
+
+</ul>
+
+    </div>
+  </div>
+</div>
+<div class="panel panel-default facet_limit blacklight-subject_sim ">
+  <div class="collapsed collapse-toggle panel-heading" data-toggle="collapse" data-target="#facet-subject_sim">
+    <h5 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Subjects</a>
+    </h5>
+  </div>
+  <div id="facet-subject_sim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+      <ul class="facet-values list-unstyled">
+  <li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=arts&amp;mode=collections&amp;search_field=all_fields">arts (9)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=history&amp;mode=collections&amp;search_field=all_fields">history (9)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=manners+and+customs&amp;mode=collections&amp;search_field=all_fields">manners and customs (7)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=revolutionaries&amp;mode=collections&amp;search_field=all_fields">revolutionaries (6)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=b%C3%A9aloideas&amp;mode=collections&amp;search_field=all_fields">béaloideas (5)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=celtic+influences&amp;mode=collections&amp;search_field=all_fields">celtic influences (5)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=celtic+revival&amp;mode=collections&amp;search_field=all_fields">celtic revival (5)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=education&amp;mode=collections&amp;search_field=all_fields">education (5)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=mythology&amp;mode=collections&amp;search_field=all_fields">mythology (5)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=politicians&amp;mode=collections&amp;search_field=all_fields">politicians (5)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=seanchas&amp;mode=collections&amp;search_field=all_fields">seanchas (5)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=20th+century+ireland&amp;mode=collections&amp;search_field=all_fields">20th century ireland (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=catholic+emancipation&amp;mode=collections&amp;search_field=all_fields">catholic emancipation (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=children&amp;mode=collections&amp;search_field=all_fields">children (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=church+buildings&amp;mode=collections&amp;search_field=all_fields">church buildings (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=clothing+and+dress&amp;mode=collections&amp;search_field=all_fields">clothing and dress (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=dance&amp;mode=collections&amp;search_field=all_fields">dance (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=design&amp;mode=collections&amp;search_field=all_fields">design (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=families&amp;mode=collections&amp;search_field=all_fields">families (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bsubject_sim%5D%5B%5D=ireland--history--easter+rising%2C+1916&amp;mode=collections&amp;search_field=all_fields">ireland--history--easter rising, 1916 (4)</a></li>
+
+    <li class="more_facets_link"><a class="more_facets_link" href="/catalog/facet/subject_sim?mode=collections&amp;search_field=all_fields">more »</a></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+<div class="panel panel-default facet_limit blacklight-temporal_coverage_sim ">
+  <div class="collapsed collapse-toggle panel-heading" data-toggle="collapse" data-target="#facet-temporal_coverage_sim">
+    <h5 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Subject (Temporal)</a>
+    </h5>
+  </div>
+  <div id="facet-temporal_coverage_sim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+      <ul class="facet-values list-unstyled">
+  <li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3Dtwentieth+century%3B+start%3D1900-01-01%3B+end%3D1999-12-31&amp;mode=collections&amp;search_field=all_fields">twentieth century (10)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3Dnineteenth+century%3B+start%3D1800-01-01%3B+end%3D1899-12-31&amp;mode=collections&amp;search_field=all_fields">nineteenth century (6)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3Deighteenth+century%3B+start%3D1700-01-01%3B+end%3D1799-12-31&amp;mode=collections&amp;search_field=all_fields">eighteenth century (4)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3Dseventeenth+century%3B+start%3D1600-01-01%3B+end%3D1699-12-31&amp;mode=collections&amp;search_field=all_fields">seventeenth century (3)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3Deighteenth+century%3B&amp;mode=collections&amp;search_field=all_fields">eighteenth century (2)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3Deighth+century%3B+start%3D0700-01-01%3B+end%3D0799-12-31&amp;mode=collections&amp;search_field=all_fields">eighth century (2)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3Dtwentieth+century%3B&amp;mode=collections&amp;search_field=all_fields">twentieth century (2)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3Dtwenty-first+century%3B&amp;mode=collections&amp;search_field=all_fields">twenty-first century (2)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3Dtwenty-first+century%3B+start%3D2000-01-01%3B+end%3D2099-12-31&amp;mode=collections&amp;search_field=all_fields">twenty-first century (2)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3D+17-18+may+1916%3B+start%3D1916-05-17%3B+end%3D1916-05-18&amp;mode=collections&amp;search_field=all_fields">17-18 may 1916 (1)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3D1860s+-+2014%3B+start%3D1860-01-01%3B+end%3D2014-12-31%3B&amp;mode=collections&amp;search_field=all_fields">1860s - 2014 (1)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3D1898-1966%2C+predominately+1916-1925%3B+start%3D1898%3B+end%3D1966%3B&amp;mode=collections&amp;search_field=all_fields">1898-1966, predominately 1916-1925 (1)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3D1910s+-+2010s%3B+start%3D1910-01-01%3B+end%3D2010-12-31%3B&amp;mode=collections&amp;search_field=all_fields">1910s - 2010s (1)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3D1915-1916%3B+start%3D19151101%3B+end%3D19161031%3B+scheme%3Dw3cdtf%3B&amp;mode=collections&amp;search_field=all_fields">1915-1916 (1)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3D1915%3B+start%3D19150101%3B+end%3D19151231%3B&amp;mode=collections&amp;search_field=all_fields">1915 (1)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3D1916%3B+start%3D1916-01-01%3B+end%3D1916-12-31&amp;mode=collections&amp;search_field=all_fields">1916 (1)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3D1916%3B+start%3D1916-04-24%3B+end%3D1916-04-29&amp;mode=collections&amp;search_field=all_fields">1916 (1)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3D1930s+-+1940s%3B+start%3D1930-01-01%3B+end%3D1949-12-31%3B&amp;mode=collections&amp;search_field=all_fields">1930s - 1940s (1)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3D1930s+-+1960s%3B&amp;mode=collections&amp;search_field=all_fields">1930s - 1960s (1)</a></li><li><a class="facet_select" href="/catalog?f%5Btemporal_coverage_sim%5D%5B%5D=name%3D1933-2013%3B+start%3D19330101%3B+end%3D20131231%3B&amp;mode=collections&amp;search_field=all_fields">1933-2013 (1)</a></li>
+
+    <li class="more_facets_link"><a class="more_facets_link" href="/catalog/facet/temporal_coverage_sim?mode=collections&amp;search_field=all_fields">more »</a></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+<div class="panel panel-default facet_limit blacklight-placename_field_sim ">
+  <div class="collapsed collapse-toggle panel-heading" data-toggle="collapse" data-target="#facet-placename_field_sim">
+    <h5 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Places</a>
+    </h5>
+  </div>
+  <div id="facet-placename_field_sim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+      <ul class="facet-values list-unstyled">
+  <li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=ireland&amp;mode=collections&amp;search_field=all_fields">ireland (16)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=dublin&amp;mode=collections&amp;search_field=all_fields">dublin (13)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=&amp;mode=collections&amp;search_field=all_fields"> (5)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=carna&amp;mode=collections&amp;search_field=all_fields">carna (5)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=co.+na+gaillimhe&amp;mode=collections&amp;search_field=all_fields">co. na gaillimhe (5)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=conamara&amp;mode=collections&amp;search_field=all_fields">conamara (5)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=iorrus+aithneach&amp;mode=collections&amp;search_field=all_fields">iorrus aithneach (5)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=republic+of+ireland&amp;mode=collections&amp;search_field=all_fields">republic of ireland (5)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=ireland%2C+west+of&amp;mode=collections&amp;search_field=all_fields">ireland, west of (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=london&amp;mode=collections&amp;search_field=all_fields">london (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=united+kingdom&amp;mode=collections&amp;search_field=all_fields">united kingdom (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=united+states&amp;mode=collections&amp;search_field=all_fields">united states (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=aran+islands&amp;mode=collections&amp;search_field=all_fields">aran islands (3)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=cavan&amp;mode=collections&amp;search_field=all_fields">cavan (3)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=clare&amp;mode=collections&amp;search_field=all_fields">clare (3)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=donegal&amp;mode=collections&amp;search_field=all_fields">donegal (3)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=england&amp;mode=collections&amp;search_field=all_fields">england (3)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=kerry&amp;mode=collections&amp;search_field=all_fields">kerry (3)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=northern+ireland&amp;mode=collections&amp;search_field=all_fields">northern ireland (3)</a></li><li><a class="facet_select" href="/catalog?f%5Bplacename_field_sim%5D%5B%5D=sligo&amp;mode=collections&amp;search_field=all_fields">sligo (3)</a></li>
+
+    <li class="more_facets_link"><a class="more_facets_link" href="/catalog/facet/placename_field_sim?mode=collections&amp;search_field=all_fields">more »</a></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+<div class="panel panel-default facet_limit blacklight-person_sim ">
+  <div class="collapsed collapse-toggle panel-heading" data-toggle="collapse" data-target="#facet-person_sim">
+    <h5 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Names</a>
+    </h5>
+  </div>
+  <div id="facet-person_sim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+      <ul class="facet-values list-unstyled">
+  <li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=digital+repository+of+ireland&amp;mode=collections&amp;search_field=all_fields">digital repository of ireland (12)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=irish+qualitative+data+archive&amp;mode=collections&amp;search_field=all_fields">irish qualitative data archive (8)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=mac+giollarn%C3%A1th%2C+se%C3%A1n&amp;mode=collections&amp;search_field=all_fields">mac giollarnáth, seán (5)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=dublin+city+library+and+archive&amp;mode=collections&amp;search_field=all_fields">dublin city library and archive (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=royal+irish+academy&amp;mode=collections&amp;search_field=all_fields">royal irish academy (4)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=arts+and+culture+in+education+research+repository&amp;mode=collections&amp;search_field=all_fields">arts and culture in education research repository (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=beranger%2C+gabriel%2C+ca.1729-1817&amp;mode=collections&amp;search_field=all_fields">beranger, gabriel, ca.1729-1817 (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=corcoran%2C+mary+p&amp;mode=collections&amp;search_field=all_fields">corcoran, mary p (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=dublin+corporation&amp;mode=collections&amp;search_field=all_fields">dublin corporation (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=gray%2C+jane&amp;mode=collections&amp;search_field=all_fields">gray, jane (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=inspiring+ireland+1916&amp;mode=collections&amp;search_field=all_fields">inspiring ireland 1916 (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=maynooth+university&amp;mode=collections&amp;search_field=all_fields">maynooth university (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=rt%C3%A9&amp;mode=collections&amp;search_field=all_fields">rté (2)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=+emma+heffernan&amp;mode=collections&amp;search_field=all_fields"> emma heffernan (1)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=abbey+theatre&amp;mode=collections&amp;search_field=all_fields">abbey theatre (1)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=aisling+dunne&amp;mode=collections&amp;search_field=all_fields">aisling dunne (1)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=allen%2C+a.p.%2C&amp;mode=collections&amp;search_field=all_fields">allen, a.p., (1)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=an+foras+feasa%2C+nui+maynooth%2C+co.+kildare%2C+ireland&amp;mode=collections&amp;search_field=all_fields">an foras feasa, nui maynooth, co. kildare, ireland (1)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=arts+council+of+ireland&amp;mode=collections&amp;search_field=all_fields">arts council of ireland (1)</a></li><li><a class="facet_select" href="/catalog?f%5Bperson_sim%5D%5B%5D=arts+education+charter&amp;mode=collections&amp;search_field=all_fields">arts education charter (1)</a></li>
+
+    <li class="more_facets_link"><a class="more_facets_link" href="/catalog/facet/person_sim?mode=collections&amp;search_field=all_fields">more »</a></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+<div class="panel panel-default facet_limit blacklight-language_sim ">
+  <div class="collapsed collapse-toggle panel-heading" data-toggle="collapse" data-target="#facet-language_sim">
+    <h5 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Language</a>
+    </h5>
+  </div>
+  <div id="facet-language_sim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+      <ul class="facet-values list-unstyled">
+  <li><a class="facet_select" href="/catalog?f%5Blanguage_sim%5D%5B%5D=eng&amp;mode=collections&amp;search_field=all_fields">English (42)</a></li><li><a class="facet_select" href="/catalog?f%5Blanguage_sim%5D%5B%5D=gle&amp;mode=collections&amp;search_field=all_fields">Irish (7)</a></li><li><a class="facet_select" href="/catalog?f%5Blanguage_sim%5D%5B%5D=ara&amp;mode=collections&amp;search_field=all_fields">Arabic (1)</a></li><li><a class="facet_select" href="/catalog?f%5Blanguage_sim%5D%5B%5D=chi&amp;mode=collections&amp;search_field=all_fields">Chinese (1)</a></li><li><a class="facet_select" href="/catalog?f%5Blanguage_sim%5D%5B%5D=cop&amp;mode=collections&amp;search_field=all_fields">Coptic (1)</a></li><li><a class="facet_select" href="/catalog?f%5Blanguage_sim%5D%5B%5D=grc&amp;mode=collections&amp;search_field=all_fields">Greek, Ancient (to 1453) (1)</a></li><li><a class="facet_select" href="/catalog?f%5Blanguage_sim%5D%5B%5D=jpn&amp;mode=collections&amp;search_field=all_fields">Japanese (1)</a></li><li><a class="facet_select" href="/catalog?f%5Blanguage_sim%5D%5B%5D=lat&amp;mode=collections&amp;search_field=all_fields">Latin (1)</a></li><li><a class="facet_select" href="/catalog?f%5Blanguage_sim%5D%5B%5D=tha&amp;mode=collections&amp;search_field=all_fields">Thai (1)</a></li>
+
+</ul>
+
+    </div>
+  </div>
+</div>
+<div class="panel panel-default facet_limit blacklight-file_type_display_sim ">
+  <div class="collapsed collapse-toggle panel-heading" data-toggle="collapse" data-target="#facet-file_type_display_sim">
+    <h5 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Mediatype</a>
+    </h5>
+  </div>
+  <div id="facet-file_type_display_sim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+      <ul class="facet-values list-unstyled">
+  <li><a class="facet_select" href="/catalog?f%5Bfile_type_display_sim%5D%5B%5D=collection&amp;mode=collections&amp;search_field=all_fields">collection (65)</a></li>
+
+</ul>
+
+    </div>
+  </div>
+</div>
+<div class="panel panel-default facet_limit blacklight-institute_sim ">
+  <div class="collapsed collapse-toggle panel-heading" data-toggle="collapse" data-target="#facet-institute_sim">
+    <h5 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Organisation</a>
+    </h5>
+  </div>
+  <div id="facet-institute_sim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+      <ul class="facet-values list-unstyled">
+  <li><a class="facet_select" href="/catalog?f%5Binstitute_sim%5D%5B%5D=irish+qualitative+data+archive&amp;mode=collections&amp;search_field=all_fields">irish qualitative data archive (14)</a></li><li><a class="facet_select" href="/catalog?f%5Binstitute_sim%5D%5B%5D=maynooth+university&amp;mode=collections&amp;search_field=all_fields">maynooth university (14)</a></li><li><a class="facet_select" href="/catalog?f%5Binstitute_sim%5D%5B%5D=arts+and+culture+in+education+research+repository+&amp;mode=collections&amp;search_field=all_fields">arts and culture in education research repository  (8)</a></li><li><a class="facet_select" href="/catalog?f%5Binstitute_sim%5D%5B%5D=royal+irish+academy&amp;mode=collections&amp;search_field=all_fields">royal irish academy (7)</a></li><li><a class="facet_select" href="/catalog?f%5Binstitute_sim%5D%5B%5D=dublin+city+library+and+archive&amp;mode=collections&amp;search_field=all_fields">dublin city library and archive (5)</a></li><li><a class="facet_select" href="/catalog?f%5Binstitute_sim%5D%5B%5D=irish+research+council&amp;mode=collections&amp;search_field=all_fields">irish research council (5)</a></li><li><a class="facet_select" href="/catalog?f%5Binstitute_sim%5D%5B%5D=ollscoil+na+h%C3%A9ireann%2C+gaillimh&amp;mode=collections&amp;search_field=all_fields">ollscoil na héireann, gaillimh (5)</a></li><li><a class="facet_select" href="/catalog?f%5Binstitute_sim%5D%5B%5D=rt%C3%A9+raidi%C3%B3+na+gaeltachta&amp;mode=collections&amp;search_field=all_fields">rté raidió na gaeltachta (5)</a></li><li><a class="facet_select" href="/catalog?f%5Binstitute_sim%5D%5B%5D=digital+repository+of+ireland&amp;mode=collections&amp;search_field=all_fields">digital repository of ireland (4)</a></li><li><a class="facet_select" href="/catalog?f%5Binstitute_sim%5D%5B%5D=national+irish+visual+arts+library+%28nival%29%2C+ncad&amp;mode=collections&amp;search_field=all_fields">national irish visual arts library (nival), ncad (3)</a></li>
+
+    <li class="more_facets_link"><a class="more_facets_link" href="/catalog/facet/institute_sim?mode=collections&amp;search_field=all_fields">more »</a></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+<div class="panel panel-default facet_limit blacklight-root_collection_id_sim ">
+  <div class="collapsed collapse-toggle panel-heading" data-toggle="collapse" data-target="#facet-root_collection_id_sim">
+    <h5 class="dri_title_dropdown">
+      <a data-no-turbolink="true" href="#">Collection</a>
+    </h5>
+  </div>
+  <div id="facet-root_collection_id_sim" class="panel-collapse facet-content collapse">
+    <div class="panel-body">
+      <ul class="facet-values list-unstyled">
+  <li><a class="facet_select" href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=0c48h416k&amp;mode=collections&amp;search_field=all_fields">Farmers and Relational Sustainability (1)</a></li><li><a class="facet_select" href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=0g35j100x&amp;mode=collections&amp;search_field=all_fields">UCC University College Cork Arts and Culture in Education Collection (1)</a></li><li><a class="facet_select" href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=1c18df827&amp;mode=collections&amp;search_field=all_fields">Inspiring Ireland 1916 - Public Memorabilia (1)</a></li><li><a class="facet_select" href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=1g05tt30h&amp;mode=collections&amp;search_field=all_fields">Private papers at Dublin City Archives (1)</a></li><li><a class="facet_select" href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=2j635q62d&amp;mode=collections&amp;search_field=all_fields">Cork LGBT Archive (1)</a></li><li><a class="facet_select" href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=3b591898r&amp;mode=collections&amp;search_field=all_fields">Digital Repository of Ireland Publications (1)</a></li><li><a class="facet_select" href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=3n20hj111&amp;mode=collections&amp;search_field=all_fields">Rambles through the County of Dublin and some of the neighbouring ones (1)</a></li><li><a class="facet_select" href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=4q77fs10h&amp;mode=collections&amp;search_field=all_fields">Outside the Glow collection: Protestants and Irishness in independent Ireland (1)</a></li><li><a class="facet_select" href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=5999n594j&amp;mode=collections&amp;search_field=all_fields">The Inspiring Ireland Project - Abbey Theatre (1)</a></li><li><a class="facet_select" href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=5999n647c&amp;mode=collections&amp;search_field=all_fields">The Inspiring Ireland Project - Crawford Art Gallery, Cork (1)</a></li>
+
+    <li class="more_facets_link"><a class="more_facets_link" href="/catalog/facet/root_collection_id_sim?mode=collections&amp;search_field=all_fields">more »</a></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+  </div>
+  <!-- close facet block -->
+</div>
+<div id="dri_result_container_id" class="dri_result_container">
+            <article class="block5" id="3n20hj111">
+  <div class="dri_content_block_collection">
+      <a data-context-href="/catalog/3n20hj111/track?counter=1&amp;search_id=17564582" href="/catalog/3n20hj111">
+      <div>
+          <div class="dri_collection_image">
+                <img width="228" src="/collections/3n20hj111/cover" />
+          </div>
+          <!-- close image -->
+          <h1>Rambles through the County of Dublin and some of the neighbouring ones</h1>
+          <p class="dri_publishing_institute">
+                Royal Irish Academy
+          </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=3n20hj111&amp;mode=objects&amp;search_field=all_fields&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (24)</span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="sf26nr10s">
+  <div class="dri_content_block_collection">
+      <a data-context-href="/catalog/sf26nr10s/track?counter=2&amp;search_id=17564582" href="/catalog/sf26nr10s">
+      <div>
+          <div class="dri_collection_image">
+                <img width="228" src="/collections/sf26nr10s/cover" />
+          </div>
+          <!-- close image -->
+          <h1>Documents on Irish Foreign Policy</h1>
+          <p class="dri_publishing_institute">
+                Royal Irish Academy
+          </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=sf26nr10s&amp;mode=objects&amp;search_field=all_fields&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (2)</span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="dj538q67j">
+  <div class="dri_content_block_collection">
+      <a data-context-href="/catalog/dj538q67j/track?counter=3&amp;search_id=17564582" href="/catalog/dj538q67j">
+      <div>
+          <div class="dri_collection_image">
+                <img width="228" src="/collections/dj538q67j/cover" />
+          </div>
+          <!-- close image -->
+          <h1>Rambles thro&#39; the County of Dublin and some others in Ireland</h1>
+          <p class="dri_publishing_institute">
+                Royal Irish Academy
+          </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=dj538q67j&amp;mode=objects&amp;search_field=all_fields&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (23)</span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="v4065w32g">
+  <div class="dri_content_block_collection">
+      <a data-context-href="/catalog/v4065w32g/track?counter=4&amp;search_id=17564582" href="/catalog/v4065w32g">
+      <div>
+          <div class="dri_collection_image">
+                <img width="228" src="/collections/v4065w32g/cover" />
+          </div>
+          <!-- close image -->
+          <h1>Poetry Ireland Publications</h1>
+          <p class="dri_publishing_institute">
+                Arts and Culture in Education Research Repository
+          </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=v4065w32g&amp;mode=objects&amp;search_field=all_fields&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (7)</span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="vt15d419x">
+  <div class="dri_content_block_collection">
+      <a data-context-href="/catalog/vt15d419x/track?counter=5&amp;search_id=17564582" href="/catalog/vt15d419x">
+      <div>
+          <div class="dri_collection_image">
+                <img width="228" src="/collections/vt15d419x/cover" />
+          </div>
+          <!-- close image -->
+          <h1>University of Limerick Arts and Culture in Education Collection</h1>
+          <p class="dri_publishing_institute">
+                Arts and Culture in Education Research Repository
+          </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=vt15d419x&amp;mode=objects&amp;search_field=all_fields&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (2)</span>
+            <span class="dri_object_text_num pull-right"><i class="dri_help_popover fa fa-lock" style="font-size: 1.4em;" data-content="This collection may contain some objects with restricted assets" data-original-title="Restricted Asset" data-trigger="hover" data-placement="auto"></i></span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="qr474k75w">
+  <div class="dri_content_block_collection">
+      <a data-context-href="/catalog/qr474k75w/track?counter=6&amp;search_id=17564582" href="/catalog/qr474k75w">
+      <div>
+          <div class="dri_collection_image">
+                <img width="228" src="/collections/qr474k75w/cover" />
+          </div>
+          <!-- close image -->
+          <h1>Artist in Residence</h1>
+          <p class="dri_publishing_institute">
+                Arts and Culture in Education Research Repository
+          </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=qr474k75w&amp;mode=objects&amp;search_field=all_fields&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (9)</span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="gq67zb062">
+  <div class="dri_content_block_collection">
+      <a data-context-href="/catalog/gq67zb062/track?counter=7&amp;search_id=17564582" href="/catalog/gq67zb062">
+      <div>
+          <div class="dri_collection_image">
+                <img width="228" src="/collections/gq67zb062/cover" />
+          </div>
+          <!-- close image -->
+          <h1>Border Roads to Memories and Reconciliation</h1>
+          <p class="dri_publishing_institute">
+                Monaghan County Council
+          </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=gq67zb062&amp;mode=objects&amp;search_field=all_fields&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (21)</span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="dr27bh262">
+  <div class="dri_content_block_collection">
+      <a data-context-href="/catalog/dr27bh262/track?counter=8&amp;search_id=17564582" href="/catalog/dr27bh262">
+      <div>
+          <div class="dri_collection_image">
+                <img width="228" src="/collections/dr27bh262/cover" />
+          </div>
+          <!-- close image -->
+          <h1>Unfolding - Maynooth University Froebel Department</h1>
+          <p class="dri_publishing_institute">
+                Arts and Culture in Education Research Repository
+          </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=dr27bh262&amp;mode=objects&amp;search_field=all_fields&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (2)</span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="0g35j100x">
+  <div class="dri_content_block_collection">
+      <a data-context-href="/catalog/0g35j100x/track?counter=9&amp;search_id=17564582" href="/catalog/0g35j100x">
+      <div>
+          <div class="dri_collection_image">
+                <img width="228" src="/collections/0g35j100x/cover" />
+          </div>
+          <!-- close image -->
+          <h1>UCC University College Cork Arts and Culture in Education Collection</h1>
+          <p class="dri_publishing_institute">
+                Arts and Culture in Education Research Repository
+          </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=0g35j100x&amp;mode=objects&amp;search_field=all_fields&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (10)</span>
+            <span class="dri_object_text_num pull-right"><i class="dri_help_popover fa fa-lock" style="font-size: 1.4em;" data-content="This collection may contain some objects with restricted assets" data-original-title="Restricted Asset" data-trigger="hover" data-placement="auto"></i></span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="0c48h416k">
+  <div class="dri_content_block_collection">
+      <a data-context-href="/catalog/0c48h416k/track?counter=10&amp;search_id=17564582" href="/catalog/0c48h416k">
+      <div>
+          <div class="dri_collection_image">
+                <img width="228" src="/collections/0c48h416k/cover" />
+          </div>
+          <!-- close image -->
+          <h1>Farmers and Relational Sustainability</h1>
+          <p class="dri_publishing_institute">
+                Irish Qualitative Data Archive
+          </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=0c48h416k&amp;mode=objects&amp;search_field=all_fields&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (5)</span>
+            <span class="dri_object_text_num pull-right"><i class="dri_help_popover fa fa-lock" style="font-size: 1.4em;" data-content="This collection may contain some objects with restricted assets" data-original-title="Restricted Asset" data-trigger="hover" data-placement="auto"></i></span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="tq5829798">
+  <div class="dri_content_block_collection">
+      <a data-context-href="/catalog/tq5829798/track?counter=11&amp;search_id=17564582" href="/catalog/tq5829798">
+      <div>
+          <div class="dri_collection_image">
+                <img width="228" src="/collections/tq5829798/cover" />
+          </div>
+          <!-- close image -->
+          <h1>Re-use and Archiving of Complex Community-Based Evaluation Research (RACcER) Collection</h1>
+          <p class="dri_publishing_institute">
+                Irish Qualitative Data Archive
+          </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=tq5829798&amp;mode=objects&amp;search_field=all_fields&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (165)</span>
+            <span class="dri_object_text_num pull-right"><i class="dri_help_popover fa fa-lock" style="font-size: 1.4em;" data-content="This collection may contain some objects with restricted assets" data-original-title="Restricted Asset" data-trigger="hover" data-placement="auto"></i></span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+    <article class="block5" id="6w92hx592">
+  <div class="dri_content_block_collection">
+      <a data-context-href="/catalog/6w92hx592/track?counter=12&amp;search_id=17564582" href="/catalog/6w92hx592">
+      <div>
+          <div class="dri_collection_image">
+                <img width="228" src="/collections/6w92hx592/cover" />
+          </div>
+          <!-- close image -->
+          <h1>MIE Visual Arts Education</h1>
+          <p class="dri_publishing_institute">
+                Arts and Culture in Education Research Repository
+          </p>
+        </div>
+</a>
+
+    <a href="/catalog?f%5Broot_collection_id_sim%5D%5B%5D=6w92hx592&amp;mode=objects&amp;search_field=all_fields&amp;view=grid">
+        <div class="dri_num_objects">
+          <span class="dri_object_text_num"> Objects (16)</span>
+        </div>
+    </a> <!-- close dri_num_objects -->
+  </div>
+  <!-- close content_block -->
+</article>
+
+
+&nbsp;
+</div><!-- close dri_result_container -->
+
+
+</div>
+<div class="dri_search_features_nav_container dri_clearfix">
+       
+<!-- navigation to allow the user to page through the search results  -->
+<nav id="dri_pagination_nav_id" class="dri_pagination_nav">
+<ul id="dri_pagination_nav_links_id" class="dri_pagination_nav_links" data-content="Use these links to move through your search results. You can change the number of pages selecting more or fewer items per page"  data-original-title="Result Pagination" data-trigger="hover" data-placement="left">
+
+   
+       <li class="selected">
+ <a href="/catalog?mode=collections&amp;search_field=all_fields&amp;view=grid">1</a>
+</li>
+
+
+       <li class="">
+ <a rel="next" href="/catalog?mode=collections&amp;page=2&amp;search_field=all_fields&amp;view=grid">2</a>
+</li>
+
+
+       <!-- <li class="disabled">
+  <a href="">&hellip;</a>
+</li>
+
+ -->
+       <li class="">
+ <a href="/catalog?mode=collections&amp;page=6&amp;search_field=all_fields&amp;view=grid">6</a>
+</li>
+
+
+   <li class="last">
+  <a rel="next" href="/catalog?mode=collections&amp;page=2&amp;search_field=all_fields&amp;view=grid">&nbsp;</a>
+</li>
+
+
+</ul>
+</nav>
+
+
+</div>
+<!-- close dri_main_content_container -->
+
+<footer id="dri_main_footer_id" class="dri_main_footer">
+ 
+  <div id="dri_footer_address_id" class="dri_footer_address">
+    Saint Peter's University Digital Repository<br/>
+    99 Glenwood Avey<br/>
+    Jersey City, NJ<br/>
+  <br/>
+    Email
+    <a id="contact_email" href="mailto:dri@ria.ie">dri@ria.ie</a><br/><br/>
+  </div>
+
+  <div id="dri_footer_dsa_logo_id" class="dri_footer_dsa_logo">
+    <a id="dsa_link" target="_blank" href="https://www.coretrustseal.org/">
+      <img alt="Core Trust Seal" src="/assets/dri/home/CoreTrustSeal-logo_60x60-b5e0b2a023fd64c30dbed47356200a6fef1a8a0dfb083fe177798b48ee1cade7.png" />
+</a>  </div>
+
+  <nav id="dri_main_footer_navigation_id"
+       class="dri_main_footer_navigation">
+    <ul id="dri_main_footer_navigation_links_id"
+        class="dri_main_footer_navigation_links">
+      <li class="">
+        <span> <a id="end_user_agreement" class="muted" href="/pages/terms">End User Agreement</a> </span>
+      </li>
+      <li class="">
+        <span> <a id="privacy_statement" class="muted" target="_blank" href="http://www.dri.ie/dri-privacy-statement">Privacy Statement</a> </span>
+      </li>
+      <li class="">
+        <span> <a id="licensing_statement" class="muted" target="_blank" href="http://www.dri.ie/licensing-statement">Licensing Statement</a> </span>
+      </li>
+      <li>
+        <a id="dri_footer_help" href="/pages/about_faq">FAQ</a>
+      </li>
+      <li>
+        <a id="find_us_footer" class="muted" href="http://dri.ie/contact">Find Us</a>
+      </li>
+    </ul>
+  </nav>
+</footer>
+<!-- close dri_main_footer_id -->
+
+
+</div><!-- close dri_wrapper -->
+
+<script>$('body').addClass('menu-page');</script>
+
+  </body>
+</html>

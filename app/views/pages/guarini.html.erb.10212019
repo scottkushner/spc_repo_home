@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rpbzojmUAipTjhdqpAuC9UC25vt79Uj15bARb4dZn+qhV0KkPpe7x5yIcWop6KVURCodA4hnpsSkmDvr8gdifA==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="resourcesync" href="http://172.17.8.211/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+
+<!-- Google Scholar metadata -->
+
+<title>Saint Peter&#39;s University
+Digital Repository</title>
+
+    <%= stylesheet_link_tag 'guarini', media: 'all', 'data-turbolinks-track' => true %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+<!-- Google Analytics -->
+<!-- for extras, e.g., a favicon -->
+
+</head>
+
+<body>
+    <nav id="masthead" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="collapse navbar-collapse" id="top-navbar-collapse">
+
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header"></div>
+       <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+<%= image_tag("rgb-web.jpg", class: "img-responsive", id: "navbar-logo") %>
+</a>
+          <a class="navbar-brand" href="#"><h2>Saint Peter's University's Documents Repository</h2></a>
+<div class="searchbar-right navbar-right col-md-4 col-md-5">
+        <form id="search-form-header" role="search" action="http://172.17.8.211/catalog?locale=en" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+  <input type="hidden" name="locale" value="en">
+  <input type="hidden" name="search_field" id="search_field" value="member_of_collection_ids_ssim%5D%5B%5D=xs55mc046"&locale="en"&"search_field"="all_fields"&q=>
+   </div>
+   </div>
+  </div>
+
+  </div><!-- /.input-group -->
+</form>
+
+   <body id="guarini-page">
+
+   <div class="row hero-search-container-fluid no-gutters">
+   <div class="col-md-6 home-left-column">
+	<figure class="hero-image">
+	<img alt="" src="/assets/Guarini_testifying2-c4722f73d401956e56b359e6e7892f136af36ccdb4243caa076de3e0dc69f1e9.jpg" class="img-responsive">
+	<figcaption>Hon. Frank J. Guarini testifying to Congress</figcaptionw>
+	</figure>
+  </div>
+ </div>
+     <div class="row search-container-fluid"> 
+     <div class="col-md-6">
+     <div class="digital-description"> 
+      <div class="pre-heading"><h2>The Honorable Frank J. Guarini Archives</h2>
+   <p>The Guarini Center houses the Saint Peter’s University Archives, Rare Books and Special Collections, and personal papers of New Jersey U.S. Congressmen Frank J. Guarini (Rep. 1979-1993), Cornelius E. Gallagher (Rep. 1959-1973), and Dominick V. Daniels (Rep. 1959-1977)"</p></div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+</div>
+
+<script>$('body').addClass('guarini-page');</script>
+</body>
+</body id>
+</html>

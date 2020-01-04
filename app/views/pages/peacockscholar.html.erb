@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="IlWZuEzJnWVrJqhcEzM0NiWFF0I71jDecmss/xZRmJB2o+KQpy0yI/d9CF/DNxcC3eZOOmqdFCfm/GeJEqnmKw==" />
+<meta charset="utf-8" />
+
+<!-- added for use on small devices like phones -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="resourcesync" href="https://scholarsphere.psu.edu/capabilitylist"/>
+	
+	<!-- Twitter card metadata -->
+	
+	<!-- Google Scholar metadata -->
+	
+	
+	<title>ScholarSphere</title>
+	
+    <%= stylesheet_link_tag 'peacockscholar', media: 'all', 'data-turbolinks-track' => true %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>	
+	
+	
+	<!-- for extras, e.g., a favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-3e943008795db3de4b64488b6e02d45bfbfc17372c996b803cae956babf7c809.ico" />
+	
+	
+</head>
+	
+<body>
+	<nav id="masthead" class="masthead navbar navbar-inverse navbar-static-top" role="navigation">
+	<div class="container-fluid">
+	<div class="row">
+	<div class="navbar-header col-xs-12">
+	<div class="row">
+	<div class="col-xs-6 logo-padding-fix">
+	<a id="shield" href="http://www.psu.edu/"><img class="lion-logo pull-left" alt="Penn State" src="/assets/site_images/penn-state-mark-f9cd9ac5086830834bbdbf0f82cfc0298d5b39ff6e0101350c5d8426b722597e.png" /></a>
+	<span class="ss-logo">
+	<a href="/">ScholarSphere</a>
+	</span>
+	
+	</div>
+	<div class="col-xs-6 navbar-inline">
+	<a role="button" class="btn btn-primary login-btn" href="/login_session">
+	Login
+	</a>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</nav>
+	
+      <nav class="navbar navbar-default navbar-static-top" role="navigation">
+	<div class="container-fluid">
+	<div class="row">
+	<ul class="nav navbar-nav col-sm-5 col-md-6">
+	<li class=active>
+	<a data-no-turbolink="true" href="/">Home</a></li>
+	<li >
+	<a data-no-turbolink="true" href="/about">About</a></li>
+	<li >
+	<a href="/help">Help</a></li>
+	<li >
+	<a href="/contact">Contact</a></li>
+	</ul><!-- /.nav -->
+	</div>
+	</div>
+	</nav><!-- /.navbar -->
+	
+	<div class="container-fluid">
+	<div class="row">
+	<div class="col-xs-12 col-sm-8 marketing">
+	<div class="home_marketing_text">
+	<h1>Need help with research data management?</h1>
+	<p>Consult the <a href="http://psu.libguides.com/rdm">Libraries' guide on RDM services</a>. Questions? Contact the <a href="mailto:L-DATA-MGMT@LISTS.PSU.EDU">Research Data Management Team</a>.</p>
+	<p>&nbsp;</p>
+	</div>
+	
+	
+	</div>
+	<div class="col-xs-12 col-sm-4 marketing-share">
+	<div class="home-share-work text-center">
+	<a class="btn btn-primary btn-lg" href="/concern/generic_works/new">
+	<span class="glyphicon glyphicon-upload" aria-hidden="true"></span> Share Your Work
+	</a> <p><a href="/terms/">Terms of Use</a></p>
+	</div>
+	
+	</div>
+	</div>
+	<div class="row">
+	<div class="col-xs-12 col-sm-offset-2 col-sm-8 home-search">
+	<form id="search-form-header" role="search" action="/catalog" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+	
+	<input type="hidden" name="search_field" id="search_field" value="all_fields" />
+	<div class="input-group">
+	
+	<label class="sr-only" for="search-field-header">Search ScholarSphere</label>
+	<input type="text" name="q" id="search-field-header" class="q form-control" placeholder="Enter search terms" />
+	
+	<div class="input-group-btn">
+	<button type="submit" class="btn btn-primary" id="search-submit-header">
+	<span class="glyphicon glyphicon-search"></span> Go
+	</button>
+	<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+	<span data-search-element="label">All of ScholarSphere</span>
+	<span class="caret"></span>
+	</button>
+	
+	<ul class="dropdown-menu pull-right">
+	<li>
+	<a data-search-option="/catalog" data-search-label="All" href="#">All of ScholarSphere</a>
+	</li>
+	
+	
+	</ul>
+	</div><!-- /.input-group-btn -->
+	
+	</div><!-- /.input-group -->
+	</form>
+	</div>
+	</div>
+	</div>
+	
+	
+	<div id="content-wrapper" class="container-fluid home-tabs">
+	
+	<div class="row home-content">
+	<div class="col-xs-12 col-sm-6">
+	<ul id="homeTabs" class="nav nav-tabs">
+	<li class="active"><a href="#featured_container" data-toggle="tab" role="tab" id="featureTab">Featured Works</a></li>
+	<li><a href="#recently_uploaded" data-toggle="tab" role="tab" id="recentTab">Recent Additions</a></li>
+	</ul>
+	<div class="tab-content">
+	<div class="tab-pane fade in active" id="featured_container" role="tabpanel" aria-labelledby="featureTab">
+	<h2 class="sr-only">Featured Works</h2>
+	<ol id="featured_works">
+	<li class="featured-item" data-id="6hd76rz936">
+	<div class="main row">
+	<div class="col-sm-3">
+	<a data-context-href="/catalog/6hd76rz936/track" href="/concern/generic_works/6hd76rz936"><img width="90" alt="" aria-hidden="true" src="/downloads/jsx61dm67k?file=thumbnail" /></a>
+	</div>
+	<div class="col-sm-9">
+	<h3>
+	<span class="sr-only">Title</span>
+	<a href="/concern/generic_works/6hd76rz936">Fig29_dserricornismalegen...</a>
+	</h3>
+	<div>
+	<span class="sr-only">Depositor</span>
+	<a href="/users/cut162">Carolyn Trietsch</a>
+	</div>
+	<div>
+	<dt class="attribute-term">Resource type</dt><dd class="attribute resource_type"><a href="/catalog?f%5Bresource_type_sim%5D%5B%5D=Image">Image</a></dd>
+	</div>
+	<div>
+	<dt class="attribute-term">Keyword</dt><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=ceraphronoidea">Ceraphronoidea</a></span></dd>
+	</div>
+	
+	</div>
+	</div>
+	</li>
+	<li class="featured-item" data-id="qbz60cx88m">
+	<div class="main row">
+	<div class="col-sm-3">
+	<a data-context-href="/catalog/qbz60cx88m/track" href="/concern/generic_works/qbz60cx88m"><img width="90" alt="" aria-hidden="true" src="/downloads/mkk91fm50c?file=thumbnail" /></a>
+	</div>
+	<div class="col-sm-9">
+	<h3>
+	<span class="sr-only">Title</span>
+	<a href="/concern/generic_works/qbz60cx88m">Lessons Learned from 100...</a>
+	</h3>
+	<div>
+	<span class="sr-only">Depositor</span>
+	<a href="/users/cam156">Carolyn Ann Cole</a>
+	</div>
+	<div>
+	<dt class="attribute-term">Resource type</dt><dd class="attribute resource_type"><a href="/catalog?f%5Bresource_type_sim%5D%5B%5D=Poster">Poster</a></dd>
+	</div>
+	<div>
+	<dt class="attribute-term">Keyword</dt><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=or">OR</a></span></dd>
+	</div>
+	
+	</div>
+	</div>
+	</li>
+	<li class="featured-item" data-id="18910jt51f">
+	<div class="main row">
+	<div class="col-sm-3">
+	<a data-context-href="/catalog/18910jt51f/track" href="/concern/generic_works/18910jt51f"><img width="90" alt="" aria-hidden="true" src="/downloads/wst74cr74c?file=thumbnail" /></a>
+	</div>
+	<div class="col-sm-9">
+	<h3>
+	<span class="sr-only">Title</span>
+	<a href="/concern/generic_works/18910jt51f">CUR 2018 [Poster] - The...</a>
+	</h3>
+	<div>
+	<span class="sr-only">Depositor</span>
+	<a href="/users/uxg3">Laura Guertin</a>
+	</div>
+	<div>
+	<dt class="attribute-term">Resource type</dt><dd class="attribute resource_type"><a href="/catalog?f%5Bresource_type_sim%5D%5B%5D=Poster">Poster</a></dd>
+	</div>
+	<div>
+	<dt class="attribute-term">Keyword</dt><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=earth+science">Earth science</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=information+literacy">information literacy</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=undergraduate+research">undergraduate research</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=introductory-level+course">introductory-level course</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=pedagogy">pedagogy</a></span></dd>
+	</div>
+	
+	</div>
+	</div>
+	</li>
+	<li class="featured-item" data-id="w0v8383454">
+	<div class="main row">
+	<div class="col-sm-3">
+	<a data-context-href="/catalog/w0v8383454/track" href="/concern/generic_works/w0v8383454"><img width="90" alt="" aria-hidden="true" src="/assets/work-ff055336041c3f7d310ad69109eda4a887b16ec501f35afc0a547c4adb97ee72.png" /></a>
+	</div>
+	<div class="col-sm-9">
+	<h3>
+	<span class="sr-only">Title</span>
+	<a href="/concern/generic_works/w0v8383454">Incompressible...</a>
+	</h3>
+	<div>
+	<span class="sr-only">Depositor</span>
+	<a href="/users/bam49">Brian Allen Maicke</a>
+	</div>
+	<div>
+	<dt class="attribute-term">Resource type</dt><dd class="attribute resource_type"><a href="/catalog?f%5Bresource_type_sim%5D%5B%5D=Software+or+Program+Code">Software or Program Code</a></dd>
+	</div>
+	<div>
+	<dt class="attribute-term">Keyword</dt><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=hybrid+rocket">hybrid rocket</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=cfd">CFD</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=simulation">simulation</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=openfoam">OpenFOAM</a></span></dd>
+	</div>
+	
+	</div>
+	</div>
+	</li>
+	<li class="featured-item" data-id="sxk81jm094">
+	<div class="main row">
+	<div class="col-sm-3">
+	<a data-context-href="/catalog/sxk81jm094/track" href="/concern/generic_works/sxk81jm094"><img width="90" alt="" aria-hidden="true" src="/downloads/m6395w8729?file=thumbnail" /></a>
+	</div>
+	<div class="col-sm-9">
+	<h3>
+	<span class="sr-only">Title</span>
+	<a href="/concern/generic_works/sxk81jm094">Review of The Rhetoric of...</a>
+	</h3>
+	<div>
+	<span class="sr-only">Depositor</span>
+	<a href="/users/dhw112">Debra Hawhee</a>
+	</div>
+	<div>
+	<dt class="attribute-term">Resource type</dt><dd class="attribute resource_type"><a href="/catalog?f%5Bresource_type_sim%5D%5B%5D=Article">Article</a></dd>
+	</div>
+	<div>
+	<dt class="attribute-term">Keyword</dt><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=argument">Argument</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=history+of+rhetoric">History of Rhetoric</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=wayne+booth">Wayne Booth</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=rhetrickery">Rhetrickery</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=understanding">Understanding</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=debate">Debate</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=political+rhetoric">Political Rhetoric</a></span></dd>
+	</div>
+	
+	</div>
+	</div>
+	</li>
+	
+	</ol>
+	
+	</div>
+	<div class="tab-pane fade" id="recently_uploaded" role="tabpanel" aria-labelledby="recentTab">
+	<h2 class="sr-only">Recently Uploaded</h2>
+	<div id="recent_docs">
+	<table class="table table-bordered table-striped">
+	<tr>
+	<th scope="col">Depositor</th>
+	<th scope="col">Details</th>
+	</tr>
+	<tr>
+	<td class="col-sm-2">
+	<a href="/users/ulf">Chikkanna R Selvaraj</a>
+	<a href="/concern/generic_works/8pk02c959c">
+	<img width="45" alt="" aria-hidden="true" src="/downloads/fxp68kg12c?file=thumbnail" />
+	</a> </td>
+	<td>
+	<h3>
+	<span class="sr-only">Title</span><a href="/concern/generic_works/8pk02c959c">Nonnegative Infinite...</a>
+	</h3>
+	<p>
+	<dt class="attribute-term">Keyword</dt><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=convexity+of+sequences">Convexity of sequences</a></span></dd>
+	</p>
+	</td>
+	</tr>
+	<tr>
+	<td class="col-sm-2">
+	<a href="/users/agm18">Andres Gabriel Mejia Ramon</a>
+	<a href="/concern/generic_works/bnz805z795">
+	<img width="45" alt="" aria-hidden="true" src="/assets/work-ff055336041c3f7d310ad69109eda4a887b16ec501f35afc0a547c4adb97ee72.png" />
+	</a> </td>
+	<td>
+	<h3>
+	<span class="sr-only">Title</span><a href="/concern/generic_works/bnz805z795">ADS_201705_Surface_Uncorr...</a>
+	</h3>
+	<p>
+	<dt class="attribute-term">Keyword</dt><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=archaeology">Archaeology</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=topography">Topography</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=digital+elevation+model">Digital Elevation Model</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=altar+de+sacrificios">Altar de Sacrificios</a></span></dd>
+	</p>
+	</td>
+	</tr>
+	<tr>
+	<td class="col-sm-2">
+	<a href="/users/tuz47">Tieyuan Zhu</a>
+	<a href="/concern/generic_works/fbg257g09b">
+	<img width="45" alt="" aria-hidden="true" src="/downloads/41n79h509s?file=thumbnail" />
+	</a> </td>
+	<td>
+	<h3>
+	<span class="sr-only">Title</span><a href="/concern/generic_works/fbg257g09b">Penn State Fiber-Optic...</a>
+	</h3>
+	<p>
+	<dt class="attribute-term">Keyword</dt><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=fiber-optic">fiber-optic</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=distributed+acoustic+sensing">distributed acoustic sensing</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=seismology">seismology</a></span></dd>
+	</p>
+	</td>
+	</tr>
+	<tr>
+	<td class="col-sm-2">
+	<a href="/users/agm18">Andres Gabriel Mejia Ramon</a>
+	<a href="/concern/generic_works/h1831cm781">
+	<img width="45" alt="" aria-hidden="true" src="/assets/work-ff055336041c3f7d310ad69109eda4a887b16ec501f35afc0a547c4adb97ee72.png" />
+	</a> </td>
+	<td>
+	<h3>
+	<span class="sr-only">Title</span><a href="/concern/generic_works/h1831cm781">ADS_201705_Surface_Uncorr...</a>
+	</h3>
+	<p>
+	<dt class="attribute-term">Keyword</dt><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=archaeology">Archaeology</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=topography">Topography</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=digital+elevation+model">Digital Elevation Model</a></span></dd><dd class="attribute keyword"><span itemprop="keywords"><a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=altar+de+sacrificios">Altar de Sacrificios</a></span></dd>
+	</p>
+	</td>
+	</tr>
+	
+	</table>
+	</div>
+	
+	</div>
+	</div>
+	</div><!-- /.col-xs-6 -->
+	
+	<div class="col-xs-12 col-sm-6">
+	
+	<h2>Featured Researcher</h2>
+	<div style="color: #212121; font-family: wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif, serif, EmojiFont; font-size: 15px;">&nbsp;<img class="tinymce-img" src="uploads/tinymce_asset/file/1/c_trietsch.jpeg" alt="" width="224" height="336" /></div>
+	<div style="color: #212121; font-family: wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif, serif, EmojiFont; font-size: 15px;">&nbsp;</div>
+	<div style="color: #212121; font-family: wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif, serif, EmojiFont; font-size: 15px;"><strong>Carolyn Trietsch, PhD Candidate in Entomology</strong></div>
+	<div style="color: #212121; font-family: wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif, serif, EmojiFont; font-size: 15px;">&nbsp;</div>
+	<div style="color: #212121; font-family: wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif, serif, EmojiFont; font-size: 15px;">I came to Penn State in 2014 to pursue my PhD in Entomology. I am currently working at the&nbsp;<a title="Original URL: https://en.wikipedia.org/wiki/Frost_Entomological_Museum
+	Click or tap if you trust this link." href="https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFrost_Entomological_Museum&amp;data=02%7C01%7Crko5039%40psu.edu%7Cec3dc7fcdea64b90ff5408d5ee5669a5%7C7cf48d453ddb4389a9c1c115526eb52e%7C0%7C0%7C636676977260698526&amp;sdata=bz2G2FoKD4LWg0YCFV%2F8W%2FtnGJjxOY7OSkD2BeZ61O0%3D&amp;reserved=0" target="_blank" rel="noopener noreferrer" data-auth="Verified">Frost Entomological Museum&nbsp;</a>on parasitic wasps of the family Megaspilidae, which belong to the superfamily Ceraphronoidea. I've done field work everywhere from Maine to Arizona, and even had the opportunity to go behind-the-scenes at the Natural History Museum in London, UK, and the National Museum of Natural History in Washington, DC, to image type specimens in the collections. I am currently working on revising the megaspilid genus&nbsp;<em>Conostigmus</em>&nbsp;in North America.&nbsp;</div>
+	<div style="color: #212121; font-family: wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif, serif, EmojiFont; font-size: 15px;">&nbsp;</div>
+	<div style="color: #212121; font-family: wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif, serif, EmojiFont; font-size: 15px;">&nbsp;</div>
+	<div style="color: #212121; font-family: wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif, serif, EmojiFont; font-size: 15px;"><strong>See Carolyn's Work in ScholarSphere</strong></div>
+	<div style="color: #212121; font-family: wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif, serif, EmojiFont; font-size: 15px;">&nbsp;</div>
+	<div><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px;">A collection of figures, standard operating procedures and materials related to a project titled "A Photographic Catalog of Ceraphronoidea Types at the Mus&eacute;um National d'Histoire Naturelle, Paris (MNHN), with comments on unpublished notes from Paul Dessart". This work will be submitted as a manuscript to the European Journal of Taxonomy.&nbsp;</span><a href="collections/hqb98mf768"><span style="color: #333333; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">https://scholarsphere.psu.edu/collections/hqb98mf768</span></a></div>
+	<div style="color: #212121; font-family: wf_segoe-ui_normal, 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif, serif, EmojiFont; font-size: 15px;">
+	<div style="margin-top: 14pt; margin-bottom: 14pt;"><span style="font-size: medium;"><strong>Why does Carolyn use ScholarSphere?</strong></span></div>
+	Our lab's policy is to publish open-access and make our data available for all to use. ScholarSphere ensures that others will be able to access our work for years to come!&nbsp;</div>
+	
+	<ul class="list-inline collection-highlights-list">
+	<li>
+	<a class="btn btn-default" href="/featured_researchers">View other featured researchers</a>
+	</li>
+	</ul>
+	</div>
+	</div>
+	
+	</div><!-- /#content-wrapper -->
+	<footer class="footer-wrapper container-fluid">
+	<div class="row">
+	<div class="col-xs-6">
+	<span class="footer-logo pull-left"><a href="/"><span class="footer-logo-bold">Scholar</span>Sphere</a></span>
+	<span class="footer-version"><a href="/versions/">v3.9</a></span>
+	<p class="footer-service">A service of the University Libraries.</p>
+	</div>
+	<div class="col-xs-6 footer-text">
+	<p>Copyright &copy; 2019 The Pennsylvania State University</p>
+	<ul class="footer-text-links-list">
+	<li><a href="http://psu.edu">Penn State</a> &#124; </li>
+	<li><a href="http://libraries.psu.edu">University Libraries</a> &#124; </li>
+	<li><a href="http://accessibility.psu.edu/">Accessibility</a></li>
+	</ul>
+	</div>
+	</div>
+	</footer>
+	
+	<div id="ajax-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal menu" aria-hidden="true">
+	<div class="modal-dialog">
+	<div class="modal-content">
+  </div>
+  </div>
+</div>
+	
+</body>
+</html>

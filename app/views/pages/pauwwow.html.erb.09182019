@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rpbzojmUAipTjhdqpAuC9UC25vt79Uj15bARb4dZn+qhV0KkPpe7x5yIcWop6KVURCodA4hnpsSkmDvr8gdifA==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="resourcesync" href="http://172.17.8.211/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+
+<!-- Google Scholar metadata -->
+
+<title>Saint Peter&#39;s University
+Digital Repository</title>
+
+    <%= stylesheet_link_tag 'pauwwow', media: 'all', 'data-turbolinks-track' => true %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+<!-- Google Analytics -->
+<!-- for extras, e.g., a favicon -->
+    <nav id="masthead" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid>
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+<a class="navbar-brand" href="#">
+<%= image_tag("rgb-web.jpg", class: "img-responsive", id: "navbar-logo") %>
+</a>
+          <a class="navbar-brand" href="#"><h2>Saint Peter's University's Documents Repository</h2></a>
+<div class="searchbar-right navbar-right col-sm-7 col-md-6">
+        <form id="search-form-header" role="search" action="http://172.17.8.211/catalog?locale=en" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+  <input type="hidden" name="locale" value="en">
+  <input type="hidden" name="search_field" id="search_field" value="all_fields">
+  <div class="input-group">
+
+    <label class="sr-only" for="search-field-header">Search Saint Peter's University Digital Repository</label>
+    <input type="text" name="q" id="search-field-header" value="" class="q form-control" placeholder="Enter search terms">
+
+    <div class="input-group-btn">
+      <button type="submit" class="btn btn-primary" id="search-submit-header">
+        <span class="glyphicon glyphicon-search"></span> Go
+      </button>
+
+        <ul class="dropdown-menu pull-right">
+          <li>
+          </li>
+      </ul>
+    </div><!-- /.input-group-btn -->
+
+  </div><!-- /.input-group -->
+</form>
+
+ </div>
+</div>
+    <div class="collapse navbar-collapse" id="top-navbar-collapse">
+      <ul id="user_utility_links" class="nav navbar-nav navbar-right">
+    </div>
+  </div>
+</nav>
+
+<div class="searchbar-right navbar-right col-sm-7 col-md-6">
+        <form id="search-form-header" role="search" action="http://172.17.8.211/catalog?locale=en" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+  <input type="hidden" name="locale" value="en">
+  <input type="hidden" name="search_field" id="search_field" value="all_fields">
+  <div class="input-group">
+
+    <label class="sr-only" for="search-field-header">Search Saint Peter's University Digital Repository</label>
+    <input type="text" name="q" id="search-field-header" class="q form-control" placeholder="Search the Pauw Wow...">
+
+    <div class="input-group-btn">
+      <button type="submit" class="btn btn-primary" id="search-submit-header">
+        <span class="glyphicon glyphicon-search"></span> Go
+      </button>
+
+    
+    </div><!-- /.input-group-btn -->
+
+  </div><!-- /.input-group -->
+</form>
+      </div>
+
+
+<div class="image-masthead">
+    <div class="background-container" background-image: image-url('Pauw_Wow13.jpg')>
+      </div>
+    </div>
+ <div class="container">  
+   <div class="row">
+    <div class="col-md-12">
+ </div>
+</div>
+</head>
+
+<body>
+   <body id="pauwwow-page">
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row fixed-row-bottom">
+        <div class="col-md-3 col-md-push-8" style="background-color: black">
+          <h2>The Pauw Wow</h2>
+          <p>Saint Peter’s College Student Newspaper. Jersey City, N.J.: Saint Peter’s College, [November 9, 1934-Present]. Originally a weekly periodical (presently issued on a monthly basis) featuring miscellaneous news stories on a wide-range of institutional events, personalities, academic endeavors, etc. within each copy. The most comprehensive journal related to the development of student life at Saint Peter’s College throughout the years. (ARCH 378.749 SA 14 PAU)</p>
+  </div>
+ </div>
+</div>
+
+<div class="container">
+  <div class="row fixed-row-bottom">
+  <table class="table table-bordered" style="background-color: black">
+  <thead>
+<th class="col-md-3"><i><th>Browse</th><th>the</th><th>Pauw</th><th>Wow</th></i></th>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://172.17.8.211/catalog?f[keyword_sim][]=Pauw+Wow+1930s&locale=en"</a><h4>1930s</h4></td>
+      <td>1940s</td>
+      <td>1950s</td>
+      <td><a href="http://172.17.8.211/catalog?f[keyword_sim][]=Pauw+Wow+1960s&locale=en"</a><h4>1960s</h4></td>
+      <td><a href="http://172.17.8.211/catalog?f[keyword_sim][]=Pauw+Wow+1970s&locale=en"</a><h4>1970s</h4></td>
+      <td><a href="http://172.17.8.211/catalog?f[keyword_sim][]=Pauw+Wow+1980s&locale=en"</a><h4>1980s</h4></td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+ </div>
+</div>
+
+</div>
+<script>$('body').addClass('pauwwow-page');</script>
+</body>
+</body id>
+</html>

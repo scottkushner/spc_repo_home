@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rpbzojmUAipTjhdqpAuC9UC25vt79Uj15bARb4dZn+qhV0KkPpe7x5yIcWop6KVURCodA4hnpsSkmDvr8gdifA==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="resourcesync" href="http://172.17.8.211/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+
+<!-- Google Scholar metadata -->
+
+<title>Saint Peter&#39;s University
+Digital Repository</title>
+
+    <%= stylesheet_link_tag 'pavan', media: 'all', 'data-turbolinks-track' => true %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+<!-- Google Analytics -->
+<!-- for extras, e.g., a favicon -->
+    <nav id="masthead" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid>
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+<a class="navbar-brand" href="#">
+<%= image_tag("rgb-web.jpg", class: "img-responsive", id: "navbar-logo") %>
+</a>
+          <a class="navbar-brand" href="#"><h2>Saint Peter's University Documents Archive</h2></a>
+<form class="edit_collection" id="edit_collection_9w032300g" action="/dashboard/collections/9w032300g?locale=en" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+      <label class="sr-only">Search Collection The Pavan: Saint Peter's University Literary Magazine</label>
+      <div class="input-group">
+        <input type="search" name="cq" id="collection_search" class="collection-query form-control" placeholder="Search subcollections and works in this collection" size="30">
+        <div class="input-group-btn">
+          <button type="submit" class="btn btn-primary" id="collection_submit"><i class="glyphicon glyphicon-search"></i> Go</button>
+        </div>
+      </div>
+      <input type="hidden" name="sort" id="collection_sort">
+      <input type="hidden" name="locale" value="en">
+</form>
+<div class="input-group">
+        <input type="search" name="cq" id="collection_search" class="collection-query form-control" placeholder="Search subcollections and works in this collection" size="30">
+        <div class="input-group-btn">
+          <button type="submit" class="btn btn-primary" id="collection_submit"><i class="glyphicon glyphicon-search"></i> Go</button>
+        </div>
+      </div>
+
+ </div>
+</div>
+    <div class="collapse navbar-collapse" id="top-navbar-collapse">
+      <ul id="user_utility_links" class="nav navbar-nav navbar-right">
+    </div>
+  </div>
+</nav>
+
+<div class="searchbar-right navbar-right col-sm-7 col-md-6">
+        <form id="search-form-header" role="search" action="http://172.17.8.211/catalog?locale=en" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+  <input type="hidden" name="locale" value="en">
+  <input type="hidden" name="search_field" id="search_field" value="all_fields">
+  <div class="input-group">
+
+    <label class="sr-only" for="search-field-header">Search Saint Peter's University Digital Repository</label>
+    <input type="text" name="q" id="search-field-header" class="q form-control" placeholder="Search the Pauw Wow...">
+
+    <div class="input-group-btn">
+      <button type="submit" class="btn btn-primary" id="search-submit-header">
+        <span class="glyphicon glyphicon-search"></span> Go
+      </button>
+
+    
+    </div><!-- /.input-group-btn -->
+
+  </div><!-- /.input-group -->
+</form>
+      </div>
+
+
+<div class="image-masthead">
+    <div class="background-container" background-image: image-url('mlkpavan.jpg')>
+      </div>
+    </div>
+ <div class="container">  
+   <div class="row">
+    <div class="col-md-12">
+  </div>
+ </div>
+</div>
+</head>
+
+<body>
+   <body id="pavan-page">
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row fixed-row-bottom">
+        <div class="col-md-6 col-md-push-1">
+          <h2>The Pavan</h2>
+          <p><h4>Saint Peter’s College Literary Journal. Jersey City, N.J.: Saint Peter’s College, [1949-Present]. Student produced poems, art work, short stories and similar distinctive literary entries constitute the makeup of this publication. Many different verse styles and modes of expression are represented within each new issue</p></h4>
+  </div>
+ </div>
+</div>
+
+<div class="container">
+  <div class="row fixed-row-bottom">
+  <table class="table">
+  <thead>
+<th class="col-md-3"><i><th><h2>Browse</h2></th><th><h2>the</h2></th><th><h2>Pavan</h2></th></i></th>
+  </thead>
+  <tbody>
+    <tr>
+      <td><h4>1940s</h4></td>
+      <td><h4>1950s</h4></td>
+      <td><a href="http://172.17.8.211/catalog?f[keyword_sim][]=Pavan+1960s&locale=en"</a><h4>1960s</h4></td>
+      <td><a href="http://172.17.8.211/catalog?f[keyword_sim][]=Pavan+1970s&locale=en"</a><h4>1970s</h4></td>
+      <tr>
+      <td><a href="http://172.17.8.211/catalog?f[keyword_sim][]=The+Pavan+1980s&locale=en"</a><h4>1980s</h4></td>
+      <td><a href="http://172.17.8.211/catalog?f[keyword_sim][]=Pavan+1990s&locale=en"</a><h4>1990s</h4></td>
+      <td><h4>2000s</h4></td>
+      <td><a href="http://172.17.8.211/catalog?f[keyword_sim][]=Pavan+2010s&locale=en"</a><h4>2010s</h4></td>
+    </tr> 
+  </tbody>
+</table>
+  </div>
+ </div>
+</div>
+
+</div>
+<script>$('body').addClass('pavan-page');</script>
+</body>
+</body id>
+</html>

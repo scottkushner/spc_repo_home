@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rpbzojmUAipTjhdqpAuC9UC25vt79Uj15bARb4dZn+qhV0KkPpe7x5yIcWop6KVURCodA4hnpsSkmDvr8gdifA==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="resourcesync" href="http://172.17.8.211/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+
+<!-- Google Scholar metadata -->
+
+<title>Saint Peter&#39;s University
+Digital Repository</title>
+
+    <%= stylesheet_link_tag 'publications', media: 'all', 'data-turbolinks-track' => true %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+    <span class="background-container-gradient"></span>
+    <div class="container site-title-container">
+      <div class="site-title h1" style="text-align: center;">
+      </div>
+    </div>
+
+ <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+         <a href="#" class="thumbnail">
+           <% image_tag "/assets/images/stpetershistory.jpg" %></a>
+          <h2>Saint Peter's University History</h2>
+          <p>The Pauw Wow, established in 1932, is the Student Newspaper of Saint Peter's University. Covering Local, State, National, and World News, Entertainment, Sports, and Cultural Events, as it relates to the Saint Peter's University Community.</p>
+          <p><a class="btn btn-default" href="http://172.17.8.211/collections/xs55mc046?locale=en" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>The Pavan</h2>
+          <p>The Pavan is the student literary magazine of Saint Peter's University. The Pavan published poetry as well as academic essays analyzing books, theater, and the social issues of the era as well as poetry, short stories, essays, photography, illustrations, and digital art. </p> 
+        <p><a class="btn btn-default" href="http://172.17.8.211/collections/9w032300g?locale=en" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>University Publications</h2>
+          <p>The Publications of Saint Peter's University including volumes on Saint Peter's History, Saint Peter's: The College Magazine, Congressman Frank J. Guarini Congressional Papers, and more..</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Peacock Scholarsphere</h2>
+          <p>Faculty Publications, Doctoral Dissertations, and Student Honor's Thesis</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+<div id="main-container" class="container">
+  <div class="row">
+   <div id="content" class="col-xs-9">
+   </div>
+  </div>
+ </div>
+
+
+  <footer class="footer">
+    <small>Sep. 2012 <strong>Wired</strong> 048
+    </small>
+     
+    </footer>
+<script>$('body').addClass('publications-page');</script>
+</div>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rpbzojmUAipTjhdqpAuC9UC25vt79Uj15bARb4dZn+qhV0KkPpe7x5yIcWop6KVURCodA4hnpsSkmDvr8gdifA==" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="resourcesync" href="http://172.17.8.211/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+
+<!-- Google Scholar metadata -->
+
+
+</head>
+<body id="page-scholar">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-custom">
+    <div class="container">
+          <div class="image-masthead">
+    <div class="background-container" background-image: image-url('/assets/PeterthePeacock.jpg')>
+<div class="text-block">
+<h4>Welcome to Saint Peter's University<p>
+     Digital Repository</p></h4>
+<p>Curation and preservation for Saint Peter's digital commons<p>
+</div>
+</div>
+
+      </div>
+    </div>
+</nav>
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a id="logo" class="navbar-brand" href="/?locale=en" data-no-turbolink="true">
+  <span class="glyphicon glyphicon-globe"></span>
+  <span class="institution_name">Saint Peter&#39;s University Digital Repository</span>
+  </a>
+
+    </div>
+
+ }
+
+
+<title>Saint Peter&#39;s University
+Digital Repository</title>
+
+</body id>
+<script>$('body').addClass('#page-scholar');</script>
+</html>

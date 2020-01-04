@@ -1,0 +1,147 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body.scholar-page { 
+background: asset_url('archives_door6.jpg') no-repeat center center;
+background-size: cover;
+background-position: 0px -520px;
+background-color: black;
+color: white;
+}
+
+.navbar {
+ height: 65px;
+}
+
+.navbar-default {
+position: fixed;
+width: 100%;
+top: 46px;
+} 
+
+.navbar-brand {
+ padding: 0px;;
+}
+
+.navbar-brand>img {
+  height: 65px;
+  padding: 10px;
+  width: 240px;
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+/* Button position on Home Page */
+
+.button-container {
+  width: 333px;
+  margin: 0 auto !important;
+}
+
+.btn-group  {
+  border-radius: 25px;
+  display: inline-block;
+  position: absolute;
+  bottom: 12px;
+  left: 160px;
+} 
+
+.btn {
+  display: inline-block;
+  border-radius: 25px;
+ }
+
+.row {
+  display: flex;
+}
+
+.fixed-row-bottom {
+  position: fixed;
+  left: 25px;
+  bottom: 4px;
+}
+
+
+.btn-xlarge {
+  padding: 9px 14px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  left: 275px;
+  min-width: 150px;
+  bottom: 4px;
+}
+
+.btn-primary { 
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  bottom: 60px;
+ }
+
+.btn-xlarge-2 {
+  padding: 9px 14px;
+  border: none;
+  color: black;
+  font-size: 22px;
+  left: 385px;
+  min-width: 150px;
+  position: fixed;
+  bottom: 90px;
+}
+
+.btn-toolbar {
+  position: absolute;
+  display: inline-block;
+  bottom: 4px;
+  color: white;
+}
+
+.btn-toolbar .btn {
+  margin-right: 5px;
+}
+
+.btn-toolbar .btn:last-child {
+  margin-right: 0;
+}
+
+.button {
+  display: block;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  bottom: 60px;
+ }
+
+.btn-dark {
+  background-color: black;
+}
+
+.btn-dark2 {
+  background-color: black;
+ }
+
+.btn-lg {
+  position: absolute;
+  bottom: 60px;
+  margin-bottom: 4px;
+  left: 250px;
+  }

@@ -1,0 +1,199 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body.pavan-page { 
+background: asset_url('Pavan7.jpg') no-repeat center center;
+background-size: 977px 637px;
+background-position: 280px 45px;
+background-color: #003C71;
+color: black;
+}
+
+
+.background-container {
+  width: 100%;
+  height: auto;
+}
+
+.container-fluid {
+  padding-top: 12px;
+  color: #003c71;
+}
+
+.container {
+  position: fixed;
+  display: inline-block;
+  left: 225px;
+  font-size: 40;
+  right: 242px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: black;
+  border-radius: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+  
+
+.table-responsive {
+  position: absolute;
+  bottom: -65px;
+  left: 1200px;
+}
+
+.navbar {
+ background-color: black;
+ height: 62px;
+}
+
+.navbar-default {
+position: fixed;
+background-color: #003c71;
+width: 100%;
+top: 46px;
+} 
+
+.navbar-brand {
+ padding: 0px;
+}
+
+.navbar-brand>img {
+  height: 120px;
+  padding: 10px;
+  width: 240px;
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.text-block {
+  position: fixed;
+  display: inline-block;
+  bottom: 425px;
+  font-size: 40;
+  right: 242px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  border-radius: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  }
+
+.pauw-wow-text {
+  width: 225px;
+  word-wrap: break-word;
+}
+
+/* Button position on Home Page */
+
+.button-container {
+  width: 333px;
+  margin: 0 auto !important;
+}
+
+.btn-group  {
+  border-radius: 25px;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 360px;
+#  margin: auto;
+#  display: flex;
+#  flex-direction: row;
+#  justify-content: center;
+} 
+
+.btn {
+  display: block;
+  border-radius: 25px;
+ }
+
+.row {
+  display: flex;
+}
+
+.fixed-row-bottom {
+  position: fixed;
+  left: 25px;
+  bottom: 100px;
+}
+
+
+.btn-xlarge {
+  padding: 9px 14px;
+  border-radius: 25px;
+  background-color: #0072CE;
+  color: white;
+  font-size: 22px;
+  left: 375px;
+  min-width: 150px;
+}
+
+.btn-primary { 
+  border-radius: 12px;
+  color: white;
+  display: block;
+  background-color: #0072CE;
+ }
+
+.btn-xlarge-2 {
+  padding: 9px 14px;
+  border: none;
+  color: black;
+  font-size: 22px;
+  left: 385px;
+  min-width: 150px;
+  position: fixed;
+  bottom: 90px;
+}
+
+.btn-toolbar {
+  position: absolute;
+  bottom: 125px;
+  color: white;
+}
+
+.btn-toolbar .btn {
+  margin-right: 5px;
+}
+
+.btn-toolbar .btn:last-child {
+  margin-right: 0;
+}
+
+.button {
+  display: block;
+  border-radius: 12px;
+  background-color: #0072CE;
+  color: white;
+ }
+
+.btn-dark {
+  background-color: black;
+}
+
+.btn-dark2 {
+  background-color: black;
+ }
+
+.btn-lg {
+  position: absolute;
+  bottom: 60px;
+  margin-bottom:20px;
+  left: 250px;
+  }

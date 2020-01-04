@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="fk4qPISan/DzarryDyh+EGfVFk768JB/a/w0rMSDONjGW7jDd6CZxfaigAVcBLxKqtHcivqA0qobVEmKGQBEZA==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="resourcesync" href="http://172.17.8.211/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+
+<!-- Google Scholar metadata -->
+
+
+<title>Saint Peter&#39;s University Digital Repository</title>
+
+<!-- application css -->
+
+    <%= stylesheet_link_tag 'peacockscholarsphere', media: 'all', 'data-turbolinks-track' => true %>
+
+<!-- application js -->
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	
+
+<style>
+a { color: #2e74b2; }
+.navbar-inverse .navbar-link { color: #ffebcd; }
+
+.navbar-inverse { background-color: #3c3c3c; }
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus { background-color: #3c3c3c; }
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-text,
+.navbar-inverse .navbar-brand { color: #dcdcdc; }
+
+.btn-primary {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  background-color: #245682;
+  border-color: #1d4467;
+}
+
+.btn-primary:hover {
+  background-color: #245682;
+  border-color: #215079;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.btn-primary:active.focus,
+.btn-primary.active:hover,
+.btn-primary.active:focus,
+.btn-primary.active.focus{
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled].focus {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+</style>
+
+
+<!-- Google Analytics -->
+
+
+<!-- for extras, e.g., a favicon -->
+
+
+    
+  </head>
+
+  <body>
+    <div class="skip-to-content">
+      <a data-turbolinks="false" href="#skip-to-content">Skip to Content</a>
+    </div>
+    <nav id="masthead" class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a id="logo" class="navbar-brand" href="/?locale=en" data-no-turbolink="true">
+  <span class="glyphicon glyphicon-globe"></span>
+  <span class="institution_name">Saint Peter&#39;s University Digital Repository</span>
+</a>
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="top-navbar-collapse">
+      <ul id="user_utility_links" class="nav navbar-nav navbar-right">
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Switch language</span>
+        <span title="Switch language">English</span>
+        <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+        <li role="presentation" class="dropdown-header">Switch language</li>
+        <li role="presentation" class="divider"></li>
+            <li role="presentation" lang="de">
+                <a class="dropdown-item" role="menuitem" tabindex="-1" href="?locale=de">Deutsch</a>
+            </li>
+            <li role="presentation" lang="en">
+                <a class="dropdown-item" role="menuitem" tabindex="-1" href="?locale=en">English</a>
+            </li>
+            <li role="presentation" lang="es">
+                <a class="dropdown-item" role="menuitem" tabindex="-1" href="?locale=es">Español</a>
+            </li>
+            <li role="presentation" lang="fr">
+                <a class="dropdown-item" role="menuitem" tabindex="-1" href="?locale=fr">Français</a>
+            </li>
+            <li role="presentation" lang="it">
+                <a class="dropdown-item" role="menuitem" tabindex="-1" href="?locale=it">Italiano</a>
+            </li>
+            <li role="presentation" lang="pt-BR">
+                <a class="dropdown-item" role="menuitem" tabindex="-1" href="?locale=pt-BR">Português do Brasil</a>
+            </li>
+            <li role="presentation" lang="zh">
+                <a class="dropdown-item" role="menuitem" tabindex="-1" href="?locale=zh">中文</a>
+            </li>
+    </ul>
+</li>
+
+    <li>
+      <a href="/users/sign_in?locale=en">
+        <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> Login
+</a>    </li>
+</ul>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="image-masthead">
+    <div class="background-container" style="background-image: url('https://user-images.githubusercontent.com/101482/29949206-ffa60d2c-8e67-11e7-988d-4910b8787d56.jpg')"></div>
+    <span class="background-container-gradient"></span>
+
+    <div class="container site-title-container">
+      <div class="site-title h1" style="text-align: center;">
+        
+      </div>
+    </div>
+
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class="container-fluid">
+    <div class="row">
+      <ul class="nav navbar-nav col-sm-5 col-md-6">
+        <li >
+          <a href="/?locale=en">Home</a></li>
+        <li >
+          <a href="/about?locale=en">About</a></li>
+        <li >
+          <a href="/help?locale=en">Help</a></li>
+        <li >
+          <a href="/contact?locale=en">Contact</a></li>
+      </ul><!-- /.nav -->
+      <div class="searchbar-right navbar-right col-sm-7 col-md-6">
+        <form id="search-form-header" role="search" action="/catalog?locale=en" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+  
+  <input type="hidden" name="search_field" id="search_field" value="all_fields" />
+  <div class="input-group">
+
+    <label class="sr-only" for="search-field-header">Search Saint Peter&#39;s University Digital Repository</label>
+    <input type="text" name="q" id="search-field-header" class="q form-control" placeholder="Enter search terms" />
+
+    <div class="input-group-btn">
+      <button type="submit" class="btn btn-primary" id="search-submit-header">
+        <span class="glyphicon glyphicon-search"></span> Go
+      </button>
+
+      </ul>
+    </div><!-- /.input-group-btn -->
+
+  </div><!-- /.input-group -->
+</form>
+      </div>
+    </div>
+  </div>
+</nav><!-- /.navbar -->
+
+  </div>
+
+    
+    <div id="content-wrapper" class="container" role="main">
+      
+      
+
+        <a name="skip-to-content" id="skip-to-content"></a>
+        
+  <div class="home_share_work row">
+    <div class="col-sm-12 text-center">
+        <a class="btn btn-primary btn-lg" href="/dashboard/my/works?locale=en">
+          <i class="glyphicon glyphicon-upload"></i> Share Your Work
+</a>      <p><a href="/terms?locale=en">Terms of Use</a></p>
+    </div>
+  </div>
+
+<div class="row home-content">
+  <div class="col-xs-12 col-sm-6">
+  <ul id="homeTabs" class="nav nav-pills">
+    <li class="active"><a href="#featured_container" data-toggle="tab" role="tab" id="featureTab">Featured Works</a></li>
+    <li><a href="#recently_uploaded" data-toggle="tab" role="tab" id="recentTab">Recently Uploaded</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane fade in active" id="featured_container" role="tabpanel" aria-labelledby="featureTab">
+      <h2 class="sr-only">Featured Works</h2>
+  <ol class="list-group list-group-striped" id="featured_works">
+    <li class="featured-item" data-id="g732d897c">
+  <div class="row">
+    <div class="col-sm-2">
+      <a data-context-href="/catalog/g732d897c/track?locale=en" href="/concern/peacock_scholarships/g732d897c?locale=en"><img src="172.17.8.211/downloads/b5644r52v?file=thumbnail" alt="B5644r52v?file=thumbnail" /></a>
+    </div>
+    <div class="col-sm-10">
+      <div>
+  <div class="featured-item-title">
+    <span class="sr-only">Title</span>
+    <h3><a href="/concern/peacock_scholarships/g732d897c?locale=en">Cold plasma therapy of a tooth root canal infected with Enterococcus faecalis biofilms in vitro</a></h3>
+  </div>
+  <div class="featured-item-depositor">
+    <span class="featured-label">Depositor:</span> <a href="/users/skushner@saintpeters-dot-edu">skushner@saintpeters.edu</a>
+  </div>
+  <div class="featured-item-keywords">
+    <span class="featured-label">Keywords:</span> <a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Micro-plasma&amp;locale=en">Micro-plasma</a>
+  </div>
+</div>
+
+    </div>
+</div>
+</li>
+<li class="featured-item" data-id="m039k4903">
+  <div class="row">
+    <div class="col-sm-2">
+      <a data-context-href="/catalog/m039k4903/track?locale=en" href="http://172.17.8.211/concern/peacock_scholarships/m039k4903?locale=en"><img src="http://172.17.8.211/downloads/9p2909328?file=thumbnail" alt="9p2909328?file=thumbnail" /></a>
+    </div>
+    <div class="col-sm-10">
+      <div>
+  <div class="featured-item-title">
+    <span class="sr-only">Title</span>
+    <h3><a href="/concern/peacock_scholarships/m039k4903?locale=en">Inactivation of Bacteria in an Aqueous Environment by a Direct-Current, ColdAtmospheric-Pressure Air Plasma Microjet</a></h3>
+  </div>
+  <div class="featured-item-depositor">
+    <span class="featured-label">Depositor:</span> <a href="/users/skushner@saintpeters-dot-edu">skushner@saintpeters.edu</a>
+  </div>
+  <div class="featured-item-keywords">
+    <span class="featured-label">Keywords:</span> <a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Micro-plasma%2C+Applied+Physics&amp;locale=en">Micro-plasma, Applied Physics</a>
+  </div>
+</div>
+
+    </div>
+</div>
+</li>
+<li class="featured-item" data-id="mk61rg92z">
+  <div class="row">
+    <div class="col-sm-2">
+      <a data-context-href="/catalog/mk61rg92z/track?locale=en" href="/concern/peacock_scholarships/mk61rg92z?locale=en"><img src="http://172.17.8.211/downloads/w0892992w?file=thumbnail" alt="W0892992w?file=thumbnail" /></a>
+    </div>
+    <div class="col-sm-10">
+      <div>
+  <div class="featured-item-title">
+    <span class="sr-only">Title</span>
+    <h3><a href="/concern/peacock_scholarships/mk61rg92z?locale=en">Atmospheric pressure cold plasma as an anti-fungal therapy</a></h3>
+  </div>
+  <div class="featured-item-depositor">
+    <span class="featured-label">Depositor:</span> <a href="/users/skushner@saintpeters-dot-edu">skushner@saintpeters.edu</a>
+  </div>
+  <div class="featured-item-keywords">
+    <span class="featured-label">Keywords:</span> <a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Applied+Physics&amp;locale=en">Applied Physics</a>
+  </div>
+</div>
+
+    </div>
+</div>
+</li>
+
+  </ol>
+
+    </div>
+    <div class="tab-pane fade" id="recently_uploaded" role="tabpanel" aria-labelledby="recentTab">
+      <h2 class="sr-only">Recently Uploaded</h2>
+  <div id="recent_docs">
+    <ol class="list-group list-group-striped recent_uploads">
+      <li class="recent-item">
+    <div class="row">
+      <div class="col-sm-2">
+        <a href="/concern/pauw_wows/2z10wq20d?locale=en">
+          <a data-context-href="/catalog/2z10wq20d/track?locale=en" href="/concern/pauw_wows/2z10wq20d?locale=en"><img suppress_link="true" src="/downloads/3x816m61d?file=thumbnail" alt="3x816m61d?file=thumbnail" /></a>
+</a>      </div>
+      <div class="col-sm-10">
+        <span class="sr-only">Title</span><h3><a href="/concern/pauw_wows/2z10wq20d?locale=en">The Pauw Wow (Vol II No 13) Apr 11, 1935</a></h3>
+        <p>
+          <span class="recent-label">Depositor:</span> <a href="/users/skushner@saintpeters-dot-edu">skushner@saintpeters.edu</a>
+        </p>
+        <p>
+          <span class="recent-label">Keywords:</span> <a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Pauw+Wow+1935&amp;locale=en">Pauw Wow 1935</a>, <a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Newspaper&amp;locale=en">Newspaper</a>
+        </p>
+      </div>
+    </div>
+</li>
+<li class="recent-item">
+    <div class="row">
+      <div class="col-sm-2">
+        <a href="/concern/pauw_wows/4f16c2849?locale=en">
+          <a data-context-href="/catalog/4f16c2849/track?locale=en" href="/concern/pauw_wows/4f16c2849?locale=en"><img suppress_link="true" src="/downloads/3f462541v?file=thumbnail" alt="3f462541v?file=thumbnail" /></a>
+</a>      </div>
+      <div class="col-sm-10">
+        <span class="sr-only">Title</span><h3><a href="/concern/pauw_wows/4f16c2849?locale=en">The Pauw Wow (Vol III No 6) Dec 12,1935</a></h3>
+        <p>
+          <span class="recent-label">Depositor:</span> <a href="/users/skushner@saintpeters-dot-edu">skushner@saintpeters.edu</a>
+        </p>
+        <p>
+          <span class="recent-label">Keywords:</span> <a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Pauw+Wow+1935&amp;locale=en">Pauw Wow 1935</a>, <a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Newspaper&amp;locale=en">Newspaper</a>
+        </p>
+      </div>
+    </div>
+</li>
+<li class="recent-item">
+    <div class="row">
+      <div class="col-sm-2">
+        <a href="/concern/pauw_wows/gf06g264k?locale=en">
+          <a data-context-href="/catalog/gf06g264k/track?locale=en" href="/concern/pauw_wows/gf06g264k?locale=en"><img suppress_link="true" src="/downloads/zs25x8453?file=thumbnail" alt="Zs25x8453?file=thumbnail" /></a>
+</a>      </div>
+      <div class="col-sm-10">
+        <span class="sr-only">Title</span><h3><a href="/concern/pauw_wows/gf06g264k?locale=en">The Pauw Wow (Vol III No. 4) Nov 14,1935</a></h3>
+        <p>
+          <span class="recent-label">Depositor:</span> <a href="/users/skushner@saintpeters-dot-edu">skushner@saintpeters.edu</a>
+        </p>
+        <p>
+          <span class="recent-label">Keywords:</span> <a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Pauw+Wow+1935&amp;locale=en">Pauw Wow 1935</a>, <a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Newspaper&amp;locale=en">Newspaper</a>
+        </p>
+      </div>
+    </div>
+</li>
+<li class="recent-item">
+    <div class="row">
+      <div class="col-sm-2">
+        <a href="/concern/pauw_wows/qn59q3974?locale=en">
+          <a data-context-href="/catalog/qn59q3974/track?locale=en" href="/concern/pauw_wows/qn59q3974?locale=en"><img suppress_link="true" src="/downloads/6h440s52q?file=thumbnail" alt="6h440s52q?file=thumbnail" /></a>
+</a>      </div>
+      <div class="col-sm-10">
+        <span class="sr-only">Title</span><h3><a href="/concern/pauw_wows/qn59q3974?locale=en">The Pauw Wow (Vol II No. 12) Mar 28, 1935</a></h3>
+        <p>
+          <span class="recent-label">Depositor:</span> <a href="/users/skushner@saintpeters-dot-edu">skushner@saintpeters.edu</a>
+        </p>
+        <p>
+          <span class="recent-label">Keywords:</span> <a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Pauw+Wow+1935&amp;locale=en">Pauw Wow 1935</a>, <a href="/catalog?f%5Bkeyword_sim%5D%5B%5D=Newspaper&amp;locale=en">Newspaper</a>
+        </p>
+      </div>
+    </div>
+</li>
+
+    </ol>
+  </div>
+
+    </div>
+  </div>
+</div><!-- /.col-xs-6 -->
+
+<div class="col-xs-12 col-sm-6">
+
+  <ul class="nav nav-pills" role="tablist">
+    <li class="active"><a aria-expanded="true" href="#tab-col2-first" role="tab" data-toggle="tab">Explore Collections</a></li>
+    <li class=""><a aria-expanded="false" href="#tab-col2-second" role="tab" data-toggle="tab">Featured Researcher</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab-col2-first">
+      <h2 class="sr-only">Explore Collections</h2>
+      <table class="table table-striped collection-highlights">
+  <tbody>
+      <tr>
+        <td>
+          <div class="media">
+            <a class="media-left" aria-hidden="true" href="/collections/2f75r800t?locale=en">
+              <img class="hidden-xs file_listing_thumbnail" src="/downloads/cv43nw80h?file=thumbnail" alt="Cv43nw80h?file=thumbnail" />
+</a>            <div class="media-body">
+              <div class="media-heading">
+                <a href="/collections/2f75r800t?locale=en">
+                  Saint Peter&#39;s History
+</a>              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="media">
+            <a class="media-left" aria-hidden="true" href="/collections/ft848q60n?locale=en">
+              <img class="hidden-xs file_listing_thumbnail" src="/downloads/s7526c40b?file=thumbnail" alt="S7526c40b?file=thumbnail" />
+</a>            <div class="media-body">
+              <div class="media-heading">
+                <a href="/collections/ft848q60n?locale=en">
+                  2017 Doctoral Dissertations
+</a>              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="media">
+            <a class="media-left" aria-hidden="true" href="/collections/3r074t937?locale=en">
+              <img class="hidden-xs file_listing_thumbnail" src="/assets/collection-a38b932554788aa578debf2319e8c4ba8a7db06b3ba57ecda1391a548a4b6e0a.png" alt="Collection" />
+</a>            <div class="media-body">
+              <div class="media-heading">
+                <a href="/collections/3r074t937?locale=en">
+                  Doctoral Dissertations
+</a>              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="media">
+            <a class="media-left" aria-hidden="true" href="/collections/m900nt40f?locale=en">
+              <img class="hidden-xs file_listing_thumbnail" src="/assets/collection-a38b932554788aa578debf2319e8c4ba8a7db06b3ba57ecda1391a548a4b6e0a.png" alt="Collection" />
+</a>            <div class="media-body">
+              <div class="media-heading">
+                <a href="/collections/m900nt40f?locale=en">
+                  Faculty Publications
+</a>              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="media">
+            <a class="media-left" aria-hidden="true" href="/collections/3j333224f?locale=en">
+              <img class="hidden-xs file_listing_thumbnail" src="/downloads/mc87pq24j?file=thumbnail" alt="Mc87pq24j?file=thumbnail" />
+</a>            <div class="media-body">
+              <div class="media-heading">
+                <a href="/collections/3j333224f?locale=en">
+                  Peacock Scholarsphere
+</a>              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+<ul class="list-inline collection-highlights-list">
+  <li>
+    <a class="btn btn-default" href="/catalog?f%5Bhuman_readable_type_sim%5D%5B%5D=Collection&amp;locale=en">View all collections</a>
+  </li>
+</ul>
+
+    </div>
+    <div class="tab-pane" id="tab-col2-second">
+      <h2 class="sr-only">Featured Researcher</h2>
+        <div><p><img src="https://scholar.google.com/citations?view_op=view_photo&amp;user=cP2MYtYAAAAJ&amp;citpid=2" alt="WeiDong Zhu" /></p>
+<h4 style="box-sizing: border-box; margin: 14px 0px; padding: 0px; font-size: 23px; direction: ltr; font-family: Kameron, Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif; color: #222222; text-rendering: optimizelegibility; line-height: 1.1; border: 0px; font-variant-ligatures: no-common-ligatures; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; vertical-align: baseline;">Dr. Wei-Dong Zhu, Ph. D.</h4>
+<p style="box-sizing: border-box; margin: 0px 0px 17px; padding: 0px; direction: ltr; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; line-height: 1.6; border: 0px; font-variant-ligatures: no-common-ligatures; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; vertical-align: baseline; transition: font-size 0.1s linear 0s;"><strong style="box-sizing: border-box; line-height: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; font-family: inherit; vertical-align: baseline;">Director</strong></p>
+<p style="box-sizing: border-box; margin: 0px 0px 17px; padding: 0px; direction: ltr; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; line-height: 1.6; border: 0px; font-variant-ligatures: no-common-ligatures; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; vertical-align: baseline; transition: font-size 0.1s linear 0s;">Dr. Wei-Dong Zhu earned his B.S. in Physics/Education and M.E. in Material Science and Engineering from Soochow University in Suzhou China in 1998 and 2001, respectively and his Ph. D. in Physics from Stevens Institute of Technology in Hoboken, NJ in 2005. His doctoral research involves pulsed DC magnetron plasma reactive sputtering and plasma diagnostics. From 2005 to 2007, Dr. Zhu held a position as a Post Doctoral Research Associate at the Frank Reidy Research Center for Bioelectrics at Old Dominion University in Norfolk, VA and at the Department of Physics and Engineering Physics at Stevens Institute of Technology. During his postdoctoral position, Dr. Zhu worked on microhollow cathode discharges (MHCD) and cathode boundary layer discharges (CBLD) for excimer light source application. Dr. Zhu joined the Department of Applied Science and Technology at Saint Peter&rsquo;s University as an assistant professor of physics since 2007. Early 2009, the&nbsp;<em style="box-sizing: border-box; line-height: inherit; margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; font-family: inherit; vertical-align: baseline;"><strong style="box-sizing: border-box; line-height: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; font-family: inherit; vertical-align: baseline;">Center for Microplasma Science and Technology</strong></em>&nbsp;(CMST) was established at Saint Peter&rsquo;s University and Dr. Zhu was appointed as the Director of Research of CMST. In the professional community, Dr. Zhu co-authored more than ten papers in peer-reviewed journals and presented numerous times in international conferences. Dr. Zhu helped organize the 2nd International Workshop on Microplasmas in Hoboken, NJ in 2004 and further sat on the local organizing committees of the 5th International Workshop on Microplasmas (San Diego, CA) and the 2nd Summer Institute on Complex Plasmas (Hoboken, NJ) in June 2009. He also served as one of the session coordinators and session chairs of the 37th International Conference on Plasma Science (ICOPS) that was held in Norfolk, VA in June, 2010. Dr. Zhu&rsquo;s research interests include: Fundamental studies and biological/ biomedical/ environmental applications of atmospheric pressure non-thermal plasmas, plasma devices and excimer sources.</p></div>
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+    </div><!-- /#content-wrapper -->
+    <footer class="navbar navbar-inverse site-footer">
+  <div class="container-fluid">
+    <div class="navbar-text text-left">
+        <p>A service of <a href="http://samvera.org/" class="navbar-link" target="_blank">Samvera</a>.</p>
+        <p>Saint Peter&#39;s University Digital Repository v2.1.0</p>
+    </div>
+    <div class="navbar-right">
+      <div class="navbar-text text-right">
+        <p><strong>Copyright &copy; 2017 Samvera</strong> Licensed under the Apache License, Version 2.0</p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div id="ajax-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal menu" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+<script>$('body').addClass('peacockscholarsphere-page');</script>
+  </body>
+</html>

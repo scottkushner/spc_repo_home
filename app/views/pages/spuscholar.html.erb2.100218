@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rpbzojmUAipTjhdqpAuC9UC25vt79Uj15bARb4dZn+qhV0KkPpe7x5yIcWop6KVURCodA4hnpsSkmDvr8gdifA==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="resourcesync" href="http://172.17.8.211/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+
+<!-- Google Scholar metadata -->
+
+
+<title>Saint Peter&#39;s University
+Digital Repository</title>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+<style>
+a { color: #2e74b2; }
+.navbar-inverse .navbar-link { color: #ffebcd; }
+
+.navbar-inverse { background-color: #3c3c3c; }
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus { background-color: #3c3c3c; }
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-text,
+.navbar-inverse .navbar-brand { color: #dcdcdc; }
+
+.btn-primary {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  background-color: #245682;
+  border-color: #1d4467;
+}
+
+.btn-primary:hover {
+  background-color: #245682;
+  border-color: #215079;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.btn-primary:active.focus,
+.btn-primary.active:hover,
+.btn-primary.active:focus,
+.btn-primary.active.focus{
+  background-color: #286090;
+  border-color: #265b89;
+}
+
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled].focus {
+  background-color: #286090;
+  border-color: #265b89;
+ }
+
+</style>
+
+
+<!-- Google Analytics -->
+
+
+<!-- for extras, e.g., a favicon -->
+
+
+    
+  </head>
+
+  <body>
+    <nav id="masthead" class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a id="logo" class="navbar-brand" href="/?locale=en" data-no-turbolink="true">
+  <span class="glyphicon glyphicon-globe"></span>
+  <span class="institution_name">Saint Peter&#39;s University Digital Repository</span>
+</a>
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="top-navbar-collapse">
+      <ul id="user_utility_links" class="nav navbar-nav navbar-right">
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Switch language</span>
+        <span title="Switch language">English</span>
+        <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+        <li role="presentation" class="dropdown-header">Switch language</li>
+        <li role="presentation" class="divider"></li>
+            <li role="presentation" lang="de">
+                <a class="dropdown-item" role="menuitem" tabindex="-1" href="?locale=de">Deutsch</a>
+            </li>
+            <li role="presentation" lang="en">
+                <a class="dropdown-item" role="menuitem" tabindex="-1" href="?locale=en">English</a>
+            </li>
+            <li role="presentation" lang="es">
+                <a class="dropdown-item" role="menuitem" tabindex="-1" href="?locale=es">Español</a>
+            </li>
+            <li role="presentation" lang="fr">
+                <a class="dropdown-item" role="menuitem" tabindex="-1" href="?locale=fr">Français</a>
+            </li>
+            <li role="presentation" lang="it">
+                <a class="dropdown-item" role="menuitem" tabindex="-1" href="?locale=it">Italiano</a>
+            </li>
+            <li role="presentation" lang="pt-BR">
+                <a class="dropdown-item" role="menuitem" tabindex="-1" href="?locale=pt-BR">Português do Brasil</a>
+            </li>
+            <li role="presentation" lang="zh">
+                <a class="dropdown-item" role="menuitem" tabindex="-1" href="?locale=zh">中文</a>
+            </li>
+    </ul>
+</li>
+
+    <li>
+      <a href="/users/sign_in?locale=en">
+        <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> Login
+</a>    </li>
+</ul>
+
+    </div>
+  </div>
+
+</nav>
+
+<div class="text-block">
+<h4>Welcome to Saint Peter's University<p>
+     Digital Repository</p></h4>
+<p>Curation and preservation for Saint Peter's digital commons<p>
+</div>
+</div>
+    <span class="background-container-gradient"></span>
+
+    <div class="container site-title-container">
+      <div class="site-title h1" style="text-align: center;">
+        
+      </div>
+    </div>
+
+<div class="text-block-scholar">
+<h4>Welcome to Peacock Scholarshpere<p>
+     Digital Repository</p></h4>
+<p>Curation and preservation for Saint Peter's digital commons<p>
+</div>
+</div>
+    <span class="background-container-gradient"></span>
+
+    <div class="container site-title-container">
+      <div class="site-title h1" style="text-align: center;">
+
+      </div>
+    </div>
+
+
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class="container-fluid">
+  <div class="navbar-header">
+   <a class="navbar-brand" href="#">
+    <img alt="Brand" src="...">
+    </a>
+   <div>
+  </div>
+ </nav>
+
+<div class="header peacock"> <head> <title>Coming Soon</title>
+
+  
+
+
+    <div class="input-group-btn">
+      <button type="submit" class="btn btn-primary" id="search-submit-header">
+        <span class="glyphicon glyphicon-search"></span> Go
+      </button>
+
+      </ul>
+    </div><!-- /.input-group-btn -->
+
+  </div><!-- /.input-group -->
+</form>
+      </div>
+    </div>
+  </div>
+</nav><!-- /.navbar -->
+
+  </div>
+
+<!-- Content -->
+
+<div id="main-container" class="container">
+  <div class="row">
+   <div id="content" class="col-xs-9">
+   </div>
+  </div>
+ </div>
+</body> 
+</html>

@@ -1,0 +1,173 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "scholar";
+@import "pauwwow";
+
+body.home-page {
+background: asset_url('Otoole_front.jpg') no-repeat center center;
+background-size: cover;
+background-color: grey;
+} 
+
+.navbar {
+ height: 65px;
+}
+
+.navbar-default {
+position: fixed;
+width: 100%;
+top: 46px;
+} 
+
+.navbar-brand {
+ padding: 0px;
+}
+
+.navbar-brand>img {
+  height: 120px;
+  padding: 10px;
+  width: 240px;
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.text-block {
+  position: fixed;
+  display: inline-block;
+  bottom: 425px;
+  font-size: 40;
+  right: 242px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  border-radius: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  }
+
+/* Button position on Home Page */
+
+.button-container {
+  width: 333px;
+  margin: 0 auto !important;
+}
+
+.btn-toolbar  {
+  border-radius: 25px;
+  display: inline-block;
+  bottom: 175px;
+  right: 0;
+} 
+
+.btn {
+  display: inline-block;
+  position: relative;
+  border-radius: 25px;
+ }
+
+.row {
+  display: flex;
+}
+
+.fixed-row-bottom {
+  position: fixed;
+  left: 25px;
+  bottom: 175px;
+}
+
+
+.btn-xlarge {
+  display: inline-block;
+  padding: 9px 14px;
+  border-radius: 25px;
+  background-color: #0072CE;
+  color: white;
+  font-size: 22px;
+  min-width: 250px;
+}
+
+.btn-primary { 
+  border-radius: 12px;
+  color: white;
+  display: inline-block;
+  background-color: #0072CE;
+ }
+
+.btn-xlarge-2 {
+  padding: 9px 14px;
+  border: none;
+  color: black;
+  font-size: 22px;
+  left: 385px;
+  min-width: 150px;
+  position: fixed;
+  bottom: 175px;
+}
+
+.btn-group {
+  position: absolute;
+  bottom: 175px;
+  left: 125px;
+  color: white;
+}
+
+.btn-toolbar {
+  position: absolute;
+  display: inline-block;
+  bottom: 175px;
+  left: 125px;
+  color: white;
+}
+
+.btn-toolbar .btn {
+  margin-right: 5px;
+}
+
+.btn-toolbar .btn:last-child {
+  margin-right: 0;
+}
+
+.button {
+  display: bloc;
+  position: relative;
+  border-radius: 12px;
+  background-color: #0072CE;
+  color: white;
+ }
+
+.btn-dark {
+  background-color: black;
+}
+
+.btn-dark2 {
+  background-color: black;
+ }
+
+.btn-lg {
+  position: absolute;
+  bottom: 60px;
+  margin-bottom:20px;
+  left: 250px;
+  }
+
+#scholar-background {
+background: asset_url('Otoole_front.jpg') no-repeat center center;
+background-color: #A59C94;
+background-size: cover;
+}

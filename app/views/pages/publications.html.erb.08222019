@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rpbzojmUAipTjhdqpAuC9UC25vt79Uj15bARb4dZn+qhV0KkPpe7x5yIcWop6KVURCodA4hnpsSkmDvr8gdifA==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="resourcesync" href="http://172.17.8.211/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+
+<!-- Google Scholar metadata -->
+
+<title>Saint Peter&#39;s University
+Digital Repository</title>
+
+    <%= stylesheet_link_tag 'publications', media: 'all', 'data-turbolinks-track' => true %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+
+<!-- for extras, e.g., a favicon -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><h2>Saint Peter's University Documents Archive</h2></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+</head>
+
+    <span class="background-container-gradient"></span>
+    <div class="container site-title-container">
+      <div class="site-title h1" style="text-align: center;">
+      </div>
+    </div>
+
+ <div class="container">
+      <!-- Example row of columns -->
+        <div class="col-md-4">
+          <div class="thumbnail">
+           <%= image_tag "stpetershistory.jpg", :class => "stpetershistory" %>
+          <h2>Saint Peter's University History</h2>
+          <p>Several histories have been written over the years on Saint Peter's University from it formation in 1872 to it's closing in 1923 and reopening, and... </p>
+        <p><a class="btn btn-default" href="http://172.17.8.211/catalog?f%5Bhuman_readable_type_sim%5D%5B%5D=Saint+Peters+History&locale=en&q=Saint+Peter%27s+History&search_field=all_fields" role="button">View details &raquo;</a></p>
+   </div>
+    </div>
+        <div class="col-md-4">
+          <div class="row"> 
+          <div class="thumbnail">
+        <%= image_tag "Brochure3_pic.jpg" %>
+          <h2>Congressman Frank J. Guarini's Congressional Papers</h2>
+          <p>The personal papers of New Jersey U.S. Congressmen Frank J. Guarini (Rep. 1979-1993), Cornelius E. Gallagher (Rep. 1959-1973), and Dominick V. Daniels (Rep. 1959-1977)</p>
+          <p><a class="btn btn-default" href="http://librarydb.saintpeters.edu:8080/handle/123456789/39" role="button">View details &raquo;</a></p>
+        </div>
+   </div>
+</div>
+        <div class="col-md-4">
+         <div class="row">
+          <div class="thumbnail">
+        <%= image_tag "peacock6.jpg" %>
+         <h2>Peacock Scholarsphere</h2>
+          <p>Faculty Publications, Doctoral Dissertations, and Student Honor's Thesis</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+  </div>
+</div>
+  <div id="main-container" class="container">
+    <div class="row">
+   <div id="content" class="col-xs-9">
+   </div>
+  </div>
+ </div>
+
+<footer class="footer">
+    <small>Saint Peter's University<strong>O'Toole Library</strong> 048
+    </small>
+     
+    </footer>
+<script>$('body').addClass('publications-page');</script>
+</div>
+</html>

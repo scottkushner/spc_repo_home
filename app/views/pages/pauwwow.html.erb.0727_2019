@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og:http://ogp.me/ns#">
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rpbzojmUAipTjhdqpAuC9UC25vt79Uj15bARb4dZn+qhV0KkPpe7x5yIcWop6KVURCodA4hnpsSkmDvr8gdifA==" />
+<meta charset="utf-8" />
+<!-- added for use on small devices like phones -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="resourcesync" href="http://172.17.8.211/capabilitylist?locale=en" />
+
+<!-- Twitter card metadata -->
+
+<!-- Google Scholar metadata -->
+
+<title>Saint Peter&#39;s University
+Digital Repository</title>
+
+    <%= stylesheet_link_tag 'pauwwow', media: 'all', 'data-turbolinks-track' => true %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+<!-- Google Analytics -->
+<!-- for extras, e.g., a favicon -->
+<div class="image-masthead">
+    <div class="background-container" background-image: image-url('Pauw_Wow_6.jpg')>
+        <h1>Saint Peter's University Documents Archive</h1>
+      </div>
+    </div>
+ <div class="container">  
+   <div class="row">
+    <div class="col-md-12">
+<div class="text-block">
+<h2>The Pauw Wow</h2>
+<p><h3>The Saint Peter's University Student Newspaper</p>
+</h3>
+   </div>
+  </div>
+ </div>
+</div>
+</head>
+
+<body>
+   <body id="pauwwow-page">
+
+<div class="container">
+  <div class="row fixed-row-bottom">
+  <table class="table">
+  <thead>
+    <tr>
+      <th class="col-md-3">Browse the Pauw-Wow</th>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1930s</td>
+      <td>1933</td>
+      <td>1934</td>
+      <td>1935</td>
+      <td>1936</td>
+      <td>1937</td>
+      <td>1938</td>
+      <td>1939</td>
+    </tr>
+    <tr>
+      <td>1940s</td>
+      <td>1941</td>
+      <td>1941</td>
+      <td>1942</td>
+      <td>1943</td>
+      <td>1944</td>
+      <td>1945</td>
+      <td>1946</td>
+      <td>1947</td>
+      <td>1948</td>
+      <td>1949</td>
+    </tr>
+    <tr>
+      <td>1950s</td>
+      <td>1950</td>
+      <td>1951</td>
+      <td>1952</td>
+      <td>1953</td>
+      <td>1954</td>
+      <td>1955</td>
+      <td>1956</td>
+      <td>1957</td>
+      <td>1958</td>
+      <td>1959</td>
+    </tr>
+    <tr>
+      <td>1960s</td>
+      <td>1960</td>
+      <td>1961</td>
+      <td>1962</td>
+      <td>1963</td>
+      <td>1964</td>
+      <td>1965</td>
+      <td>1966</td>
+      <td>1967</td>
+      <td>1968</td>
+      <td>1969</td>
+    </tr>
+    <tr>
+      <td>1970s</td>
+      <td>1970</td>
+      <td>1971</td>
+      <td>1972</td>
+      <td>1973</td>
+      <td>1974</td>
+      <td>1975</td>
+      <td>1976</td>
+      <td>1977</td>
+      <td>1978</td>
+      <td>1979</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+<script>$('body').addClass('pauwwow-page');</script>
+</body>
+</body id>
+</html>

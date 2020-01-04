@@ -1,0 +1,146 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body.home-page {
+background-image: image-url('saintpetersbridge2.jpg') no-repeat center center;
+height: 450px;
+left: 250px;
+background-color: #003C71;
+background-size: cover;
+} 
+
+#page-scholar {
+background: url('PeterthePeacock2.jpg') no-repeat center center;
+position: relative;
+padding-top: .05px;
+background-size: 1250px 225px;
+}
+
+.navbar {
+ height: 45px;
+}
+
+.navbar-default {
+position: fixed;
+width: 100%;
+top: 46px;
+} 
+
+.navbar-brand {
+ padding: 0px;;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 10px;
+  width: auto;
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.text-block {
+  position: fixed;
+  display: inline-block;
+  bottom: 455px;
+  font-size: 40;
+  right: 242px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  }
+
+/* Button position on Home Page */
+
+.container {
+  position: relative;
+}
+
+.btn-group  {
+  position: fixed;
+  border-radius: 25px;
+  bottom: 60px;
+  left: 360px;
+#  margin: auto;
+#  display: flex;
+#  flex-direction: row;
+#  justify-content: center;
+} 
+
+.button {
+  position: fixed;
+  border-radius: 25px;
+}
+
+.row {
+  display: flex;
+}
+
+
+.btn-xlarge {
+  padding: 9px 14px;
+  border-radius: 25px;
+  background-color: black;
+  color: #003C71;
+  font-size: 22px;
+  left: 375px;
+  min-width: 150px;
+  display: inline-block;
+  postion: fixed-bottom;
+}
+
+
+.button1 { 
+  border-radius: 12px;
+  color: #003C71;
+  display: inline-block;
+  background-color: #003C71;
+}
+
+.btn-xlarge-2 {
+  padding: 9px 14px;
+  border: none;
+  color: black;
+  font-size: 22px;
+  left: 385px;
+  min-width: 150px;
+  position: fixed;
+  bottom: 90px;
+}
+
+.button2 {
+  border-radius: 12px;
+  background-color: #e7e7e7;
+}
+
+.btn-dark {
+  background-color: black;
+}
+
+.btn-dark2 {
+  background-color: black;
+ }
+
+.btn-lg {
+  position: absolute;
+  bottom: 60px;
+  margin-bottom:20px;
+  left: 250px;
+  }
