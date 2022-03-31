@@ -14,7 +14,7 @@ gem 'rack-cors'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 4.3'
 gem 'libv8', '~> 6.3.0'
 # Use mini_racer
 gem 'mini_racer', '>= 0.2.0'
